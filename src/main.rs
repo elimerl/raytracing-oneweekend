@@ -32,7 +32,7 @@ fn main() -> Result<()> {
     if image_height % 2 != 0 {
         panic!("image height must be even");
     }
-    let samples_per_pixel = 1;
+    let samples_per_pixel = 50;
     let max_depth = 50;
     // World
     let mut world = HittableList::new();
@@ -40,6 +40,10 @@ fn main() -> Result<()> {
     let material_center = Box::new(Lambertian::new(Color::new(0.7, 0.3, 0.3)));
     let material_left = Box::new(Metal::new(Color::new(0.8, 0.8, 0.8), 0.3));
     let material_right = Box::new(Metal::new(Color::new(0.8, 0.6, 0.2), 0.3));
+    println!(
+        "Rendering at resolution {}x{} with {} samples and max recurse {}",
+        image_width, image_height, samples_per_pixel, max_depth
+    );
     let bar = Arc::new(Mutex::new(
         ProgressBar::new(image_width as u64 * image_height as u64).with_style(
             ProgressStyle::default_bar().template(
@@ -112,7 +116,11 @@ fn main() -> Result<()> {
     });
     bar.lock().unwrap().finish();
     let elapsed = now.elapsed();
-    println!("Took {}s", elapsed.as_secs_f64());
+    println!(
+        "Took {}s at {} pixels per second",
+        elapsed.as_secs_f64(),
+        bar.lock().unwrap().per_sec()
+    );
     {
         image
             .lock()
