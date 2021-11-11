@@ -1,6 +1,9 @@
 #![allow(dead_code)]
+mod hittable;
+mod hittablelist;
 mod image;
 mod ray;
+mod shapes;
 mod vectors;
 use std::{sync::mpsc::channel, thread};
 
