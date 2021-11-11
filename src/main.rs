@@ -8,7 +8,7 @@ mod ray;
 mod shapes;
 mod vectors;
 
-use std::sync::{atomic::AtomicBool, Arc, Mutex};
+use std::sync::{Arc, Mutex};
 
 use crate::{
     material::{Lambertian, Metal},
