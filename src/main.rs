@@ -108,8 +108,6 @@ fn main() -> Result<()> {
         for band in 0..bands {
             let world = world.clone();
             let camera = camera.clone();
-            let row = Arc::new(Mutex::new(vec![Color::new_all(0.0); image_width as usize]));
-            let row_clone = row.clone();
             let bar_clone = bar.clone();
             let image_clone = image_clone.clone();
 
