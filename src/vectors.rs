@@ -2,6 +2,8 @@ use std::{
     fmt::Debug,
     ops::{Add, Div, Mul, Neg, Sub},
 };
+
+use rand::Rng;
 #[derive(Clone, Copy, PartialEq)]
 pub struct Vec3 {
     pub x: f32,
@@ -47,6 +49,34 @@ impl Vec3 {
             y: self.z * other.x - self.x * other.z,
             z: self.x * other.y - self.y * other.x,
         }
+    }
+    pub fn random() -> Vec3 {
+        Vec3::new(rand::random(), rand::random(), rand::random())
+    }
+    pub fn random_range(min: f32, max: f32) -> Vec3 {
+        Vec3::new(
+            rand::thread_rng().gen_range(min..max),
+            rand::thread_rng().gen_range(min..max),
+            rand::thread_rng().gen_range(min..max),
+        )
+    }
+    pub fn random_in_unit_sphere() -> Vec3 {
+        loop {
+            let p = Vec3::random_range(-1.0, 1.0);
+            if p.length_squared() >= 1.0 {
+                continue;
+            }
+            return p;
+        }
+    }
+    pub fn random_unit_vector() -> Vec3 {
+        Vec3::random_in_unit_sphere().normalize()
+    }
+    pub fn near_zero(&self) -> bool {
+        self.x.abs() < 0.001 && self.y.abs() < 0.001 && self.z.abs() < 0.001
+    }
+    pub fn reflect(&self, other: Vec3) -> Vec3 {
+        *self - other * Vec3::new_all(2.0) * Vec3::new_all(self.dot(other))
     }
 }
 pub type Point3 = Vec3;

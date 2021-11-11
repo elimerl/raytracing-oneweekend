@@ -1,13 +1,22 @@
 use crate::{
     hittable::{HitRecord, Hittable},
+    material::Material,
     vectors::Vec3,
 };
-
-struct Sphere {
+pub struct Sphere {
     center: Vec3,
     radius: f32,
+    material: Box<dyn Material>,
 }
-
+impl Sphere {
+    pub fn new(center: Vec3, radius: f32, material: Box<dyn Material>) -> Sphere {
+        Sphere {
+            center,
+            radius,
+            material,
+        }
+    }
+}
 impl Hittable for Sphere {
     fn hit(
         &self,
@@ -39,11 +48,21 @@ impl Hittable for Sphere {
             p: r.at(root),
             normal: Vec3::new_all(0.0),
             front_face: false,
+            mat: (*self.material).clone_box(),
         };
         let outward_normal = (rec.p - self.center) / Vec3::new_all(self.radius);
 
         rec.set_face_normal(r, outward_normal);
 
         Some(rec)
+    }
+}
+impl Clone for Sphere {
+    fn clone(&self) -> Sphere {
+        Sphere {
+            center: self.center,
+            radius: self.radius,
+            material: (*self.material).clone_box(),
+        }
     }
 }

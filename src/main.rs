@@ -1,104 +1,145 @@
 #![allow(dead_code)]
+mod camera;
 mod hittable;
 mod hittablelist;
 mod image;
+mod material;
 mod ray;
 mod shapes;
 mod vectors;
-use std::{sync::mpsc::channel, thread};
 
-use crate::vectors::*;
+use std::sync::{atomic::AtomicBool, Arc, Mutex};
+
+use crate::{
+    material::{Lambertian, Metal},
+    vectors::*,
+};
 use anyhow::Result;
-use minifb::{Key, Window, WindowOptions};
+use camera::Camera;
+use hittable::HitRecord;
+use hittablelist::HittableList;
+use indicatif::{ProgressBar, ProgressStyle};
 use ray::Ray;
+use shapes::sphere::Sphere;
+
 fn main() -> Result<()> {
-    let aspect_ratio = 16.0 / 9.0 as f32;
-    let image_width = 400;
-    let image_height = (image_width as f32 / aspect_ratio) as u32;
-    let viewport_height = 2.0;
-    let viewport_width = aspect_ratio * viewport_height;
-    let focal_length = 1.0;
+    // Image
+    let image_width = 1000;
+    let image_height = 1000;
+    if (image_width % 2) != 0 {
+        panic!("image width must be even");
+    }
+    if image_height % 2 != 0 {
+        panic!("image height must be even");
+    }
+    let samples_per_pixel = 1;
+    let max_depth = 50;
+    // World
+    let mut world = HittableList::new();
+    let material_ground = Box::new(Lambertian::new(Color::new(0.8, 0.8, 0.0)));
+    let material_center = Box::new(Lambertian::new(Color::new(0.7, 0.3, 0.3)));
+    let material_left = Box::new(Metal::new(Color::new(0.8, 0.8, 0.8), 0.3));
+    let material_right = Box::new(Metal::new(Color::new(0.8, 0.6, 0.2), 0.3));
+    let bar = Arc::new(Mutex::new(
+        ProgressBar::new(image_width as u64 * image_height as u64).with_style(
+            ProgressStyle::default_bar().template(
+                "{bar:40} [{per_sec} pixels per second] [{elapsed_precise} elapsed] [{eta} left]",
+            ),
+        ),
+    ));
 
-    let mut buffer: Vec<u32> = vec![0; (image_width * image_height) as usize];
-    let mut window = Window::new(
-        "Image - ESC to exit",
-        image_width as usize,
-        image_height as usize,
-        WindowOptions {
-            scale: minifb::Scale::X4,
-            ..WindowOptions::default()
-        },
-    )
-    .unwrap_or_else(|e| {
-        panic!("{}", e);
-    });
+    world.add(Box::new(Sphere::new(
+        Point3::new(0.0, -100.5, -1.0),
+        100.0,
+        material_ground,
+    )));
+    world.add(Box::new(Sphere::new(
+        Point3::new(0.0, 0.0, -1.0),
+        0.5,
+        material_center,
+    )));
+    world.add(Box::new(Sphere::new(
+        Point3::new(-1.0, 0.0, -1.0),
+        0.5,
+        material_left,
+    )));
+    world.add(Box::new(Sphere::new(
+        Point3::new(1.0, 0.0, -1.0),
+        0.5,
+        material_right,
+    )));
 
-    let (sender, receiver) = channel();
-    // Limit to max ~60 fps update rate
-    window.limit_update_rate(Some(std::time::Duration::from_micros(16600)));
-    thread::spawn(move || {
-        let origin = Point3::new(0.0, 0.0, 0.0);
-        let horizontal = Vec3::new(viewport_width, 0.0, 0.0);
-        let vertical = Vec3::new(0.0, viewport_height, 0.0);
-        let lower_left_corner = origin
-            - horizontal / Vec3::new_all(2.0)
-            - vertical / Vec3::new_all(2.0)
-            - Vec3::new(0.0, 0.0, focal_length);
+    // Camera
+    let camera = Camera::new(image_width as f32 / image_height as f32);
 
-        let mut image = image::Image::new(image_width, image_height);
+    let now = std::time::Instant::now();
+    let image = Arc::new(Mutex::new(image::Image::new(image_width, image_height)));
+    let image_clone = image.clone();
+    rayon::scope(|s| {
         for y in 0..image_height {
-            for x in 0..image_width {
-                let u = x as f32 / (image_width - 1) as f32;
-                let v = y as f32 / (image_height - 1) as f32;
+            let world = world.clone();
+            let camera = camera.clone();
+            let row = Arc::new(Mutex::new(vec![Color::new_all(0.0); image_width as usize]));
+            let row_clone = row.clone();
+            let bar_clone = bar.clone();
+            let image_clone = image_clone.clone();
 
-                let r = Ray::new(
-                    origin,
-                    lower_left_corner + Vec3::new_all(u) * horizontal + Vec3::new_all(v) * vertical
-                        - origin,
-                );
-                image.set_pixel(x, y, ray_color(r));
-            }
-            if y % (image_height / 4) == 0 {
-                sender.send(image.image.clone()).unwrap();
-            }
-        }
-        image.save("test.png").expect("Failed to save image");
-    });
-    // let progess_copy2 = progress.clone();
-    while window.is_open() && !window.is_key_down(Key::Escape) {
-        if let Ok(image) = receiver.recv() {
-            for x in 0..image_width {
-                for y in 0..image_height {
-                    let pixel = image.get_pixel(x, y);
-                    let r = pixel[0] as u32;
-                    let g = pixel[1] as u32;
-                    let b = pixel[2] as u32;
-
-                    // buffer[(y * image_width + x) as usize] = pixel.into();
-                    buffer[(y * image_width + x) as usize] = (r << 16) + (g << 8) + b;
+            s.spawn(move |_| {
+                let mut row = row_clone.lock().unwrap();
+                for x in 0..image_width {
+                    let mut color = Color::new_all(0.0);
+                    for _ in 0..samples_per_pixel {
+                        let u = (x as f32 + rand::random::<f32>()) / (image_width - 1) as f32;
+                        let v = (y as f32 + rand::random::<f32>()) / (image_height - 1) as f32;
+                        let r = camera.get_ray(u, v);
+                        color = color + ray_color(r, &world, max_depth);
+                    }
+                    row[x as usize] = color;
+                    if x % 4 == 0 {
+                        bar_clone.lock().unwrap().inc(4);
+                    }
                 }
-            }
-        }
+                {
+                    let mut img = image_clone.lock().unwrap();
+                    for x in 0..image_width {
+                        let color = row[x as usize];
 
-        // We unwrap here as we want this code to exit if it fails. Real applications may want to handle this in a different way
-        window
-            .update_with_buffer(&buffer, image_width as usize, image_height as usize)
-            .unwrap();
+                        img.set_pixel(x, y, color, samples_per_pixel);
+                    }
+                }
+            });
+        }
+    });
+    bar.lock().unwrap().finish();
+    let elapsed = now.elapsed();
+    println!("Took {}s", elapsed.as_secs_f64());
+    {
+        image
+            .lock()
+            .unwrap()
+            .save("test.png")
+            .expect("Failed to save image");
+        println!("Saved image");
     }
 
     Ok(())
 }
-fn ray_color(r: Ray) -> Color {
-    let t = hit_sphere(Point3::new(0.0, 0.0, -1.0), 0.5, r);
-    if t > 0.0 {
-        let n = (r.at(t) - Vec3::new(0.0, 0.0, -1.0)).normalize();
-        return Color::new_all(0.5) * Color::new(n.x + 1.0, n.y + 1.0, n.z + 1.0);
+fn ray_color(r: Ray, world: &HittableList, depth: u32) -> Color {
+    let mut rec = HitRecord::empty();
+    if depth <= 0 {
+        return Color::new_all(0.0);
     }
 
+    if world.hit(r, 0.001, f32::MAX, &mut rec) {
+        if let Some((scattered, attenuation)) = rec.mat.scatter(r, &rec) {
+            return attenuation * ray_color(scattered, world, depth - 1);
+        }
+        return Color::new_all(0.0);
+    }
     let unit_direction = r.direction.normalize();
     let t = 0.5 * (unit_direction.y + 1.0);
-    return Color::new_all(1.0 - t) * Color::new(1.0, 1.0, 1.0)
-        + Color::new_all(t) * Color::new(0.5, 0.7, 1.0);
+    return Vec3::new_all(1.0 - t) * Color::new(1.0, 1.0, 1.0)
+        + Vec3::new_all(t) * Color::new(0.5, 0.7, 1.0);
 }
 fn hit_sphere(center: Point3, radius: f32, r: Ray) -> f32 {
     let oc = r.origin - center;

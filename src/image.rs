@@ -20,14 +20,24 @@ impl Image {
         self.image.height()
     }
 
-    pub fn set_pixel(&mut self, x: u32, y: u32, color: Color) {
+    pub fn set_pixel(&mut self, x: u32, y: u32, color: Color, samples_per_pixel: u32) {
+        let mut r = color.x;
+        let mut g = color.y;
+        let mut b = color.z;
+
+        // Divide the color by the number of samples and gamma-correct for gamma=2.0.
+        let scale = 1.0 / (samples_per_pixel as f32);
+        r = (scale * r).sqrt();
+        g = (scale * g).sqrt();
+        b = (scale * b).sqrt();
+
         self.image.put_pixel(
             x,
             (self.height() - 1) - y,
             Rgb([
-                (color.x * 255.999) as u8,
-                (color.y * 255.999) as u8,
-                (color.z * 255.999) as u8,
+                (r * 255.999) as u8,
+                (g * 255.999) as u8,
+                (b * 255.999) as u8,
             ]),
         );
     }
@@ -60,14 +70,14 @@ mod tests {
     #[test]
     fn test_image_set_pixel() {
         let mut image = Image::new(100, 100);
-        image.set_pixel(50, 50, Color::new(1.0, 0.0, 0.0));
+        image.set_pixel(50, 50, Color::new(1.0, 0.0, 0.0), 1);
         assert_eq!(image.get_pixel(50, 50), Color::new(1.0, 0.0, 0.0));
     }
 
     #[test]
     fn test_image_save() -> Result<()> {
         let mut image = Image::new(100, 100);
-        image.set_pixel(50, 50, Color::new(1.0, 0.0, 0.0));
+        image.set_pixel(50, 50, Color::new(1.0, 0.0, 0.0), 1);
         image.save("test.png")?;
         std::fs::remove_file("test.png")
             .with_context(|| "Should never fail unless the previous line failed")?;
