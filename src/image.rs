@@ -34,9 +34,9 @@ impl Image {
     pub fn get_pixel(&self, x: u32, y: u32) -> Color {
         let pixel = self.image.get_pixel(x, y);
         Color::new(
-            (pixel[0] as f32) / 255.0,
-            (pixel[1] as f32) / 255.0,
-            (pixel[2] as f32) / 255.0,
+            (pixel[0] as f32) / 255.999,
+            (pixel[1] as f32) / 255.999,
+            (pixel[2] as f32) / 255.999,
         )
     }
     pub fn save(&self, path: &str) -> Result<()> {

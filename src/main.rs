@@ -2,14 +2,7 @@
 mod image;
 mod ray;
 mod vectors;
-use std::{
-    sync::{
-        atomic::AtomicBool,
-        mpsc::{channel, sync_channel},
-        Arc,
-    },
-    thread,
-};
+use std::{sync::mpsc::channel, thread};
 
 use crate::vectors::*;
 use anyhow::Result;
@@ -24,7 +17,6 @@ fn main() -> Result<()> {
     let focal_length = 1.0;
 
     let mut buffer: Vec<u32> = vec![0; (image_width * image_height) as usize];
-
     let mut window = Window::new(
         "Image - ESC to exit",
         image_width as usize,
@@ -61,13 +53,15 @@ fn main() -> Result<()> {
                     lower_left_corner + Vec3::new_all(u) * horizontal + Vec3::new_all(v) * vertical
                         - origin,
                 );
-
                 image.set_pixel(x, y, ray_color(r));
             }
-            sender.send(image.image.clone()).unwrap();
+            if y % (image_height / 4) == 0 {
+                sender.send(image.image.clone()).unwrap();
+            }
         }
         image.save("test.png").expect("Failed to save image");
     });
+    // let progess_copy2 = progress.clone();
     while window.is_open() && !window.is_key_down(Key::Escape) {
         if let Ok(image) = receiver.recv() {
             for x in 0..image_width {
@@ -82,6 +76,7 @@ fn main() -> Result<()> {
                 }
             }
         }
+
         // We unwrap here as we want this code to exit if it fails. Real applications may want to handle this in a different way
         window
             .update_with_buffer(&buffer, image_width as usize, image_height as usize)
@@ -93,8 +88,8 @@ fn main() -> Result<()> {
 fn ray_color(r: Ray) -> Color {
     let t = hit_sphere(Point3::new(0.0, 0.0, -1.0), 0.5, r);
     if t > 0.0 {
-        let N = (r.at(t) - Vec3::new(0.0, 0.0, -1.0)).normalize();
-        return Color::new_all(0.5) * Color::new(N.x + 1.0, N.y + 1.0, N.z + 1.0);
+        let n = (r.at(t) - Vec3::new(0.0, 0.0, -1.0)).normalize();
+        return Color::new_all(0.5) * Color::new(n.x + 1.0, n.y + 1.0, n.z + 1.0);
     }
 
     let unit_direction = r.direction.normalize();
@@ -104,13 +99,14 @@ fn ray_color(r: Ray) -> Color {
 }
 fn hit_sphere(center: Point3, radius: f32, r: Ray) -> f32 {
     let oc = r.origin - center;
-    let a = r.direction.dot(&r.direction);
-    let b = 2.0 * oc.dot(&r.direction);
-    let c = oc.dot(&oc) - radius * radius;
-    let discriminant = b * b - 4.0 * a * c;
+    let a = r.direction.length_squared();
+    let half_b = oc.dot(r.direction);
+    let c = oc.length_squared() - radius * radius;
+    let discriminant = half_b * half_b - a * c;
+
     if discriminant < 0.0 {
         return -1.0;
     } else {
-        return (-b - discriminant.sqrt()) / (2.0 * a);
+        return (-half_b - discriminant.sqrt()) / a;
     }
 }

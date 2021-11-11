@@ -27,6 +27,9 @@ impl Vec3 {
     pub fn length(&self) -> f32 {
         (self.x * self.x + self.y * self.y + self.z * self.z).sqrt()
     }
+    pub fn length_squared(&self) -> f32 {
+        self.x * self.x + self.y * self.y + self.z * self.z
+    }
     pub fn normalize(&self) -> Vec3 {
         let mut cloned = *self;
         let length = cloned.length();
@@ -35,10 +38,10 @@ impl Vec3 {
         cloned.z /= length;
         cloned
     }
-    pub fn dot(&self, other: &Vec3) -> f32 {
+    pub fn dot(&self, other: Vec3) -> f32 {
         self.x * other.x + self.y * other.y + self.z * other.z
     }
-    pub fn cross(&self, other: &Vec3) -> Vec3 {
+    pub fn cross(&self, other: Vec3) -> Vec3 {
         Vec3 {
             x: self.y * other.z - self.z * other.y,
             y: self.z * other.x - self.x * other.z,
@@ -117,13 +120,13 @@ mod tests {
     fn test_vector_dot() {
         let v1 = super::Vec3::new(1.0, 2.0, 3.0);
         let v2 = super::Vec3::new(2.0, 3.0, 4.0);
-        assert!(approx_eq!(f32, v1.dot(&v2), 20.0, ulps = 4));
+        assert!(approx_eq!(f32, v1.dot(v2), 20.0, ulps = 4));
     }
     #[test]
     fn test_vector_cross() {
         let v1 = super::Vec3::new(1.0, 2.0, 3.0);
         let v2 = super::Vec3::new(2.0, 3.0, 4.0);
-        let v3 = v1.cross(&v2);
+        let v3 = v1.cross(v2);
         assert!(approx_eq!(f32, v3.x, -1.0, ulps = 4));
         assert!(approx_eq!(f32, v3.y, 2.0, ulps = 4));
         assert!(approx_eq!(f32, v3.z, -1.0, ulps = 4));
