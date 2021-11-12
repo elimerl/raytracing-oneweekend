@@ -1,0 +1,5910 @@
+camera_pos: [13.0, 2.0, 3.0]
+camera_lookat: [0, 0, 0]
+camera_fov: 20
+objects:
+  - type: sphere
+    center:
+      - 0
+      - -1000
+      - 0
+    radius: 1000
+    material:
+      type: diffuse
+      albedo:
+        - 0.5
+        - 0.5
+        - 0.5
+  - type: sphere
+    center:
+      - -10.443044
+      - 0.2
+      - -10.323735
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.04302509
+        - 0.48545945
+        - 0.5841275
+  - type: sphere
+    center:
+      - -10.291176
+      - 0.2
+      - -9.926454
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.38215062
+        - 0.01693615
+        - 0.89789116
+  - type: sphere
+    center:
+      - -10.210689
+      - 0.2
+      - -8.428089
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.03330041
+        - 0.0943091
+        - 0.6753735
+  - type: sphere
+    center:
+      - -10.600066
+      - 0.2
+      - -7.905296
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.85109925
+        - 0.66311413
+        - 0.20996474
+  - type: sphere
+    center:
+      - -10.674713
+      - 0.2
+      - -6.562421
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.9588967
+        - 0.7377405
+        - 0.77639186
+      fuzzy: 0.49209684
+  - type: sphere
+    center:
+      - -10.795373
+      - 0.2
+      - -5.993475
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.27786246
+        - 0.20903325
+        - 0.7275138
+  - type: sphere
+    center:
+      - -10.298794
+      - 0.2
+      - -4.120574
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.096376374
+        - 0.084392995
+        - 0.19059408
+  - type: sphere
+    center:
+      - -10.888242
+      - 0.2
+      - -3.5526438
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.63167435
+        - 0.052606177
+        - 0.005263404
+  - type: sphere
+    center:
+      - -10.596949
+      - 0.2
+      - -2.9043777
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.21332891
+        - 0.2373424
+        - 0.23878248
+  - type: sphere
+    center:
+      - -10.34105
+      - 0.2
+      - -1.9287251
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.019903732
+        - 0.42825925
+        - 0.26786146
+  - type: sphere
+    center:
+      - -10.195255
+      - 0.2
+      - -0.9266136
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.20636262
+        - 0.6232791
+        - 0.34986445
+  - type: sphere
+    center:
+      - -10.274122
+      - 0.2
+      - 0.33436567
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.416998
+        - 0.13765906
+        - 0.14082897
+  - type: sphere
+    center:
+      - -10.253189
+      - 0.2
+      - 1.1599388
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.077159725
+        - 0.004402229
+        - 0.09821085
+  - type: sphere
+    center:
+      - -10.39874
+      - 0.2
+      - 2.8499713
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0031466987
+        - 0.17087285
+        - 0.68656564
+  - type: sphere
+    center:
+      - -10.858878
+      - 0.2
+      - 3.521591
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.09583584
+        - 0.22076456
+        - 0.22317384
+  - type: sphere
+    center:
+      - -10.204065
+      - 0.2
+      - 4.370501
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.35063094
+        - 0.53649765
+        - 0.25993994
+  - type: sphere
+    center:
+      - -10.711886
+      - 0.2
+      - 5.4584727
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.5827184
+        - 0.48806584
+        - 0.052419502
+  - type: sphere
+    center:
+      - -10.993966
+      - 0.2
+      - 6.527938
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.02150267
+        - 0.23552488
+        - 0.67537457
+  - type: sphere
+    center:
+      - -10.236369
+      - 0.2
+      - 7.267124
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.34244433
+        - 0.038487848
+        - 0.4676944
+  - type: sphere
+    center:
+      - -10.191411
+      - 0.2
+      - 8.111904
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.79853386
+        - 0.99418354
+        - 0.71128285
+      fuzzy: 0.13261408
+  - type: sphere
+    center:
+      - -10.604613
+      - 0.2
+      - 9.040909
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.54430044
+        - 0.6087229
+        - 0.9309641
+      fuzzy: 0.018456519
+  - type: sphere
+    center:
+      - -10.875666
+      - 0.2
+      - 10.847959
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.029809397
+        - 0.5267866
+        - 0.14893073
+  - type: sphere
+    center:
+      - -9.3552065
+      - 0.2
+      - -10.790766
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.03693475
+        - 0.033704385
+        - 0.3972359
+  - type: sphere
+    center:
+      - -9.461422
+      - 0.2
+      - -9.234419
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.6764342
+        - 0.61781436
+        - 0.7109151
+      fuzzy: 0.11941868
+  - type: sphere
+    center:
+      - -9.347352
+      - 0.2
+      - -8.448335
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.037238143
+        - 0.17848448
+        - 0.46436712
+  - type: sphere
+    center:
+      - -9.375517
+      - 0.2
+      - -7.8212314
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.07056839
+        - 0.8833199
+        - 0.208049
+  - type: sphere
+    center:
+      - -9.859498
+      - 0.2
+      - -6.563255
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.003988954
+        - 0.28500274
+        - 0.2391568
+  - type: sphere
+    center:
+      - -9.187395
+      - 0.2
+      - -5.9884987
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.65042704
+        - 0.8708797
+        - 0.6978547
+      fuzzy: 0.12753904
+  - type: sphere
+    center:
+      - -9.553004
+      - 0.2
+      - -4.466264
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0062321713
+        - 0.13658124
+        - 0.20731303
+  - type: sphere
+    center:
+      - -9.820141
+      - 0.2
+      - -3.122882
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.027306858
+        - 0.0040111095
+        - 0.30800793
+  - type: sphere
+    center:
+      - -9.842003
+      - 0.2
+      - -2.5171938
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.120610975
+        - 0.056694258
+        - 0.29969627
+  - type: sphere
+    center:
+      - -9.314193
+      - 0.2
+      - -1.6551877
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.14315894
+        - 0.1331995
+        - 0.50162035
+  - type: sphere
+    center:
+      - -9.75458
+      - 0.2
+      - -0.44135648
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.89251655
+        - 0.5882556
+        - 0.6409653
+      fuzzy: 0.35259825
+  - type: sphere
+    center:
+      - -9.160052
+      - 0.2
+      - 0.55460155
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.574528
+        - 0.02626775
+        - 0.046262607
+  - type: sphere
+    center:
+      - -9.695064
+      - 0.2
+      - 1.2731237
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.10994041
+        - 0.24194871
+        - 0.017465834
+  - type: sphere
+    center:
+      - -9.216011
+      - 0.2
+      - 2.3375835
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.06412969
+        - 0.64718354
+        - 0.085853904
+  - type: sphere
+    center:
+      - -9.396077
+      - 0.2
+      - 3.605344
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.6858374
+        - 0.76283836
+        - 0.77618134
+      fuzzy: 0.3496477
+  - type: sphere
+    center:
+      - -9.7396965
+      - 0.2
+      - 4.1966105
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.4425741
+        - 0.00863247
+        - 0.07900331
+  - type: sphere
+    center:
+      - -9.662358
+      - 0.2
+      - 5.179024
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.9340149
+        - 0.6562882
+        - 0.5994542
+      fuzzy: 0.15937412
+  - type: sphere
+    center:
+      - -9.7391615
+      - 0.2
+      - 6.869823
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.02379621
+        - 0.9172823
+        - 0.15863942
+  - type: sphere
+    center:
+      - -9.67849
+      - 0.2
+      - 7.268578
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.42915967
+        - 0.19286203
+        - 0.14578758
+  - type: sphere
+    center:
+      - -9.381345
+      - 0.2
+      - 8.163899
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.5036402
+        - 0.22636856
+        - 0.19650225
+  - type: sphere
+    center:
+      - -9.69331
+      - 0.2
+      - 9.691468
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.022135358
+        - 0.08660368
+        - 0.124049425
+  - type: sphere
+    center:
+      - -9.1770725
+      - 0.2
+      - 10.162957
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.085423805
+        - 0.3519278
+        - 0.014185991
+  - type: sphere
+    center:
+      - -8.284673
+      - 0.2
+      - -10.548246
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.8066668
+        - 0.5081799
+        - 0.53650326
+      fuzzy: 0.11479634
+  - type: sphere
+    center:
+      - -8.376597
+      - 0.2
+      - -9.183994
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.28385726
+        - 0.024924934
+        - 0.30203587
+  - type: sphere
+    center:
+      - -8.30013
+      - 0.2
+      - -8.686492
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0014263015
+        - 0.104422316
+        - 0.0026160558
+  - type: sphere
+    center:
+      - -8.620459
+      - 0.2
+      - -7.932308
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.26319396
+        - 0.03350132
+        - 0.34535584
+  - type: sphere
+    center:
+      - -8.5155525
+      - 0.2
+      - -6.5492663
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.18933132
+        - 0.14313458
+        - 0.363894
+  - type: sphere
+    center:
+      - -8.81582
+      - 0.2
+      - -5.276117
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.655092
+        - 0.34687662
+        - 0.005354669
+  - type: sphere
+    center:
+      - -8.204487
+      - 0.2
+      - -4.8672876
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.2297892
+        - 0.74314415
+        - 0.18692896
+  - type: sphere
+    center:
+      - -8.614756
+      - 0.2
+      - -3.129463
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.02769638
+        - 0.16314669
+        - 0.28057095
+  - type: sphere
+    center:
+      - -8.969
+      - 0.2
+      - -2.9907837
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.3047532
+        - 0.18428811
+        - 0.014442451
+  - type: sphere
+    center:
+      - -8.699276
+      - 0.2
+      - -1.8745353
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.7836822
+        - 0.6786958
+        - 0.40817297
+  - type: sphere
+    center:
+      - -8.83341
+      - 0.2
+      - -0.34318382
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.26587918
+        - 0.8030216
+        - 0.9868206
+  - type: sphere
+    center:
+      - -8.874444
+      - 0.2
+      - 0.5164343
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.09173825
+        - 0.14040759
+        - 0.4921091
+  - type: sphere
+    center:
+      - -8.567546
+      - 0.2
+      - 1.6807985
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.018505655
+        - 0.0016483826
+        - 0.3417599
+  - type: sphere
+    center:
+      - -8.315156
+      - 0.2
+      - 2.169788
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.24238688
+        - 0.22109137
+        - 0.1814112
+  - type: sphere
+    center:
+      - -8.947833
+      - 0.2
+      - 3.0985425
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.07125844
+        - 0.44896406
+        - 0.10134843
+  - type: sphere
+    center:
+      - -8.62516
+      - 0.2
+      - 4.8958745
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.08456011
+        - 0.8293247
+        - 0.07845431
+  - type: sphere
+    center:
+      - -8.525884
+      - 0.2
+      - 5.3707814
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.06595132
+        - 0.45976442
+        - 0.13559254
+  - type: sphere
+    center:
+      - -8.286003
+      - 0.2
+      - 6.804818
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.49599254
+        - 0.18977606
+        - 0.016589697
+  - type: sphere
+    center:
+      - -8.279006
+      - 0.2
+      - 7.600711
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.030580953
+        - 0.12229342
+        - 0.033369683
+  - type: sphere
+    center:
+      - -8.259369
+      - 0.2
+      - 8.8043585
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.12700357
+        - 0.062956616
+        - 0.2136575
+  - type: sphere
+    center:
+      - -8.606517
+      - 0.2
+      - 9.748462
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.7664133
+        - 0.68572843
+        - 0.42160437
+  - type: sphere
+    center:
+      - -8.203214
+      - 0.2
+      - 10.300019
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.5181583
+        - 0.032862067
+        - 0.28235093
+  - type: sphere
+    center:
+      - -7.607629
+      - 0.2
+      - -10.108928
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.37846828
+        - 0.35581705
+        - 0.13012835
+  - type: sphere
+    center:
+      - -7.541103
+      - 0.2
+      - -9.583789
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.69448054
+        - 0.7883415
+        - 0.9843799
+      fuzzy: 0.33204383
+  - type: sphere
+    center:
+      - -7.98097
+      - 0.2
+      - -8.89347
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0416355
+        - 0.042057484
+        - 0.07992972
+  - type: sphere
+    center:
+      - -7.465193
+      - 0.2
+      - -7.7545605
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.4925702
+        - 0.015353092
+        - 0.46014535
+  - type: sphere
+    center:
+      - -7.8359585
+      - 0.2
+      - -6.57979
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.66808057
+        - 0.6536233
+        - 0.3136363
+  - type: sphere
+    center:
+      - -7.332461
+      - 0.2
+      - -5.794445
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.66544145
+        - 0.19157974
+        - 0.011943708
+  - type: sphere
+    center:
+      - -7.9414287
+      - 0.2
+      - -4.729465
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.08438624
+        - 0.036138542
+        - 0.108092494
+  - type: sphere
+    center:
+      - -7.830841
+      - 0.2
+      - -3.5045142
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.07165287
+        - 0.3622939
+        - 0.14695649
+  - type: sphere
+    center:
+      - -7.156486
+      - 0.2
+      - -2.424159
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.29125896
+        - 0.03761915
+        - 0.04566228
+  - type: sphere
+    center:
+      - -7.673456
+      - 0.2
+      - -1.3796821
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.7604378
+        - 0.71484274
+        - 0.14955021
+  - type: sphere
+    center:
+      - -7.463649
+      - 0.2
+      - -0.8670392
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.05382186
+        - 0.21844879
+        - 0.8773375
+  - type: sphere
+    center:
+      - -7.8414507
+      - 0.2
+      - 0.46112886
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.3025965
+        - 0.19359903
+        - 0.61448777
+  - type: sphere
+    center:
+      - -7.9214396
+      - 0.2
+      - 1.8575792
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.3266382
+        - 0.46365502
+        - 0.094061315
+  - type: sphere
+    center:
+      - -7.514053
+      - 0.2
+      - 2.0212739
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.43520224
+        - 0.7237608
+        - 0.30084652
+  - type: sphere
+    center:
+      - -7.2969704
+      - 0.2
+      - 3.3920999
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.97228336
+        - 0.56719184
+        - 0.67078733
+      fuzzy: 0.22557312
+  - type: sphere
+    center:
+      - -7.1993685
+      - 0.2
+      - 4.2729406
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.16251343
+        - 0.006781185
+        - 0.10848849
+  - type: sphere
+    center:
+      - -7.208765
+      - 0.2
+      - 5.3217235
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.67885005
+        - 0.7162584
+        - 0.8609752
+      fuzzy: 0.228522
+  - type: sphere
+    center:
+      - -7.776001
+      - 0.2
+      - 6.450963
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.052981503
+        - 0.16229354
+        - 0.28515616
+  - type: sphere
+    center:
+      - -7.592558
+      - 0.2
+      - 7.5840673
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.21239005
+        - 0.27494565
+        - 0.6335966
+  - type: sphere
+    center:
+      - -7.139963
+      - 0.2
+      - 8.667799
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.00033746692
+        - 0.5987962
+        - 0.31587034
+  - type: sphere
+    center:
+      - -7.265027
+      - 0.2
+      - 9.210653
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.97633785
+        - 0.84828216
+        - 0.71159124
+      fuzzy: 0.41094536
+  - type: sphere
+    center:
+      - -7.833674
+      - 0.2
+      - 10.558167
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.531142
+        - 0.16000263
+        - 0.07609502
+  - type: sphere
+    center:
+      - -6.5079403
+      - 0.2
+      - -10.285438
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.44412544
+        - 0.83929724
+        - 0.31668034
+  - type: sphere
+    center:
+      - -6.9483423
+      - 0.2
+      - -9.486331
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.7001217
+        - 0.5955781
+        - 0.15541358
+  - type: sphere
+    center:
+      - -6.9170394
+      - 0.2
+      - -8.446251
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.014530623
+        - 0.035035662
+        - 0.530005
+  - type: sphere
+    center:
+      - -6.1078982
+      - 0.2
+      - -7.9056077
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.074417725
+        - 0.2621932
+        - 0.058832798
+  - type: sphere
+    center:
+      - -6.964145
+      - 0.2
+      - -6.325437
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.019125512
+        - 0.19402882
+        - 0.04002658
+  - type: sphere
+    center:
+      - -6.664115
+      - 0.2
+      - -5.2715235
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.23019359
+        - 0.041997697
+        - 0.5796285
+  - type: sphere
+    center:
+      - -6.6656566
+      - 0.2
+      - -4.3704624
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.18839256
+        - 0.34050262
+        - 0.5956521
+  - type: sphere
+    center:
+      - -6.912872
+      - 0.2
+      - -3.2101097
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.38551363
+        - 0.42906278
+        - 0.3530265
+  - type: sphere
+    center:
+      - -6.985824
+      - 0.2
+      - -2.322907
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.30643365
+        - 0.04034359
+        - 0.30116394
+  - type: sphere
+    center:
+      - -6.583003
+      - 0.2
+      - -1.1130866
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.8297195
+        - 0.2698236
+        - 0.002946398
+  - type: sphere
+    center:
+      - -6.949479
+      - 0.2
+      - -0.5403638
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.53162
+        - 0.14605169
+        - 0.26259664
+  - type: sphere
+    center:
+      - -6.235557
+      - 0.2
+      - 0.89675945
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.90393686
+        - 0.7119337
+        - 0.71925414
+      fuzzy: 0.41687447
+  - type: sphere
+    center:
+      - -6.6148324
+      - 0.2
+      - 1.1612593
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.055643782
+        - 0.115210205
+        - 0.38698113
+  - type: sphere
+    center:
+      - -6.8205814
+      - 0.2
+      - 2.784367
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.22084977
+        - 0.13669047
+        - 0.039093368
+  - type: sphere
+    center:
+      - -6.857954
+      - 0.2
+      - 3.383171
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.37165397
+        - 0.49973133
+        - 0.06787642
+  - type: sphere
+    center:
+      - -6.667649
+      - 0.2
+      - 4.455458
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.17048407
+        - 0.47513655
+        - 0.39151248
+  - type: sphere
+    center:
+      - -6.1472845
+      - 0.2
+      - 5.3842773
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.6310174
+        - 0.55521196
+        - 0.89034164
+      fuzzy: 0.49615532
+  - type: sphere
+    center:
+      - -6.126312
+      - 0.2
+      - 6.440855
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.5519585
+        - 0.7438454
+        - 0.9349047
+      fuzzy: 0.20410591
+  - type: sphere
+    center:
+      - -6.1096306
+      - 0.2
+      - 7.4785523
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.08960662
+        - 0.074860364
+        - 0.45919022
+  - type: sphere
+    center:
+      - -6.8037176
+      - 0.2
+      - 8.587671
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.6089632
+        - 0.5497799
+        - 0.7004204
+      fuzzy: 0.37630945
+  - type: sphere
+    center:
+      - -6.6580534
+      - 0.2
+      - 9.54915
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.5624781
+        - 0.67791855
+        - 0.89176774
+      fuzzy: 0.39860082
+  - type: sphere
+    center:
+      - -6.9893837
+      - 0.2
+      - 10.590717
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.52603006
+        - 0.54409337
+        - 0.31440234
+  - type: sphere
+    center:
+      - -5.10301
+      - 0.2
+      - -10.109204
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.07793012
+        - 0.39041564
+        - 0.7589292
+  - type: sphere
+    center:
+      - -5.588996
+      - 0.2
+      - -9.278767
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.9851581
+        - 0.9372337
+        - 0.54494154
+      fuzzy: 0.07850754
+  - type: sphere
+    center:
+      - -5.5538025
+      - 0.2
+      - -8.128305
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.9286255
+        - 0.94162875
+        - 0.73940337
+      fuzzy: 0.21245205
+  - type: sphere
+    center:
+      - -5.364337
+      - 0.2
+      - -7.2132397
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.105826296
+        - 0.021647682
+        - 0.5104502
+  - type: sphere
+    center:
+      - -5.820427
+      - 0.2
+      - -6.637415
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0843606
+        - 0.24721095
+        - 0.38884458
+  - type: sphere
+    center:
+      - -5.8457365
+      - 0.2
+      - -5.3020606
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.16939452
+        - 0.5112081
+        - 0.026179016
+  - type: sphere
+    center:
+      - -5.8381495
+      - 0.2
+      - -4.886743
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.06636971
+        - 0.039928596
+        - 0.26637077
+  - type: sphere
+    center:
+      - -5.2047725
+      - 0.2
+      - -3.4738426
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.3184417
+        - 0.74636054
+        - 0.04969592
+  - type: sphere
+    center:
+      - -5.614567
+      - 0.2
+      - -2.1988134
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.10583186
+        - 0.00077777094
+        - 0.0022832714
+  - type: sphere
+    center:
+      - -5.8009787
+      - 0.2
+      - -1.5271544
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.62896264
+        - 0.18298367
+        - 0.4561203
+  - type: sphere
+    center:
+      - -5.3761926
+      - 0.2
+      - -0.33819193
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.5097973
+        - 0.47175762
+        - 0.47333252
+  - type: sphere
+    center:
+      - -5.7261
+      - 0.2
+      - 0.24473552
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.35797358
+        - 0.14411935
+        - 0.7286776
+  - type: sphere
+    center:
+      - -5.768579
+      - 0.2
+      - 1.5943949
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.097296104
+        - 0.29563326
+        - 0.06279304
+  - type: sphere
+    center:
+      - -5.259836
+      - 0.2
+      - 2.1195378
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.20902666
+        - 0.41561663
+        - 0.028290642
+  - type: sphere
+    center:
+      - -5.1494017
+      - 0.2
+      - 3.3003042
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.21059053
+        - 0.34159616
+        - 0.11043261
+  - type: sphere
+    center:
+      - -5.896967
+      - 0.2
+      - 4.458424
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.5347606
+        - 0.052662224
+        - 0.20559865
+  - type: sphere
+    center:
+      - -5.201809
+      - 0.2
+      - 5.268004
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.7885993
+        - 0.8596475
+        - 0.69430375
+      fuzzy: 0.16559082
+  - type: sphere
+    center:
+      - -5.101619
+      - 0.2
+      - 6.382638
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.09769795
+        - 0.19109103
+        - 0.0343583
+  - type: sphere
+    center:
+      - -5.398817
+      - 0.2
+      - 7.599105
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.13999571
+        - 0.003352031
+        - 0.106781796
+  - type: sphere
+    center:
+      - -5.6200075
+      - 0.2
+      - 8.407709
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.11400269
+        - 0.07458331
+        - 0.24936388
+  - type: sphere
+    center:
+      - -5.1997066
+      - 0.2
+      - 9.298829
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.9832015
+        - 0.6445169
+        - 0.87230074
+      fuzzy: 0.08367008
+  - type: sphere
+    center:
+      - -5.4802814
+      - 0.2
+      - 10.887606
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.20789629
+        - 0.40839258
+        - 0.27852333
+  - type: sphere
+    center:
+      - -4.3837614
+      - 0.2
+      - -10.292573
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.03698914
+        - 0.079913974
+        - 0.00029742674
+  - type: sphere
+    center:
+      - -4.4478226
+      - 0.2
+      - -9.93172
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.19326586
+        - 0.3972281
+        - 0.05646499
+  - type: sphere
+    center:
+      - -4.4281063
+      - 0.2
+      - -8.632666
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.034984052
+        - 0.04688443
+        - 0.4406271
+  - type: sphere
+    center:
+      - -4.934744
+      - 0.2
+      - -7.2800846
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.11328183
+        - 0.3768839
+        - 0.09727509
+  - type: sphere
+    center:
+      - -4.6120195
+      - 0.2
+      - -6.305705
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.39472976
+        - 0.044048402
+        - 0.016747322
+  - type: sphere
+    center:
+      - -4.889773
+      - 0.2
+      - -5.5196457
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.7533278
+        - 0.004083504
+        - 0.33016005
+  - type: sphere
+    center:
+      - -4.8330684
+      - 0.2
+      - -4.5343184
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.2983323
+        - 0.65254223
+        - 0.2476794
+  - type: sphere
+    center:
+      - -4.426517
+      - 0.2
+      - -3.7188637
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.07027315
+        - 0.3623487
+        - 0.047179084
+  - type: sphere
+    center:
+      - -4.3596907
+      - 0.2
+      - -2.8441303
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.19835308
+        - 0.32050917
+        - 0.0023700197
+  - type: sphere
+    center:
+      - -4.143447
+      - 0.2
+      - -1.5351614
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.67328864
+        - 0.015684918
+        - 0.629141
+  - type: sphere
+    center:
+      - -4.721409
+      - 0.2
+      - -0.47511047
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.22254442
+        - 0.7304161
+        - 0.009811446
+  - type: sphere
+    center:
+      - -4.6671677
+      - 0.2
+      - 0.25484675
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.74143434
+        - 0.07253634
+        - 0.06303361
+  - type: sphere
+    center:
+      - -4.562341
+      - 0.2
+      - 1.8844317
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0085143745
+        - 0.63174164
+        - 0.70278823
+  - type: sphere
+    center:
+      - -4.211324
+      - 0.2
+      - 2.2155395
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.65620565
+        - 0.92947906
+        - 0.6200646
+      fuzzy: 0.19354308
+  - type: sphere
+    center:
+      - -4.1791787
+      - 0.2
+      - 3.1171386
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.39624733
+        - 0.07703407
+        - 0.015647884
+  - type: sphere
+    center:
+      - -4.1080923
+      - 0.2
+      - 4.8656054
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.13025497
+        - 0.20610401
+        - 0.25230116
+  - type: sphere
+    center:
+      - -4.27384
+      - 0.2
+      - 5.2038126
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.5107567
+        - 0.19662076
+        - 0.1463236
+  - type: sphere
+    center:
+      - -4.814354
+      - 0.2
+      - 6.4937687
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.01663668
+        - 0.51459825
+        - 0.47293934
+  - type: sphere
+    center:
+      - -4.2383204
+      - 0.2
+      - 7.5371
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.9895741
+        - 0.82403415
+        - 0.98780704
+      fuzzy: 0.238478
+  - type: sphere
+    center:
+      - -4.766022
+      - 0.2
+      - 8.132661
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.14791295
+        - 0.63008535
+        - 0.14624247
+  - type: sphere
+    center:
+      - -4.402642
+      - 0.2
+      - 9.275205
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.09389194
+        - 0.019165449
+        - 0.18159463
+  - type: sphere
+    center:
+      - -4.11416
+      - 0.2
+      - 10.184787
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.19812585
+        - 0.5293353
+        - 0.17760675
+  - type: sphere
+    center:
+      - -3.761389
+      - 0.2
+      - -10.638905
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.021480884
+        - 0.0054707723
+        - 0.43650025
+  - type: sphere
+    center:
+      - -3.6918664
+      - 0.2
+      - -9.403837
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.94557893
+        - 0.66814697
+        - 0.5224993
+      fuzzy: 0.21116793
+  - type: sphere
+    center:
+      - -3.8441155
+      - 0.2
+      - -8.576583
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.082940035
+        - 0.001008324
+        - 0.30042017
+  - type: sphere
+    center:
+      - -3.2292018
+      - 0.2
+      - -7.114733
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.13311674
+        - 0.13915004
+        - 0.09446188
+  - type: sphere
+    center:
+      - -3.2292569
+      - 0.2
+      - -6.344502
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.58986694
+        - 0.52342623
+        - 0.98921984
+      fuzzy: 0.17457527
+  - type: sphere
+    center:
+      - -3.5811048
+      - 0.2
+      - -5.82029
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.3746468
+        - 0.22097725
+        - 0.058321875
+  - type: sphere
+    center:
+      - -3.2653468
+      - 0.2
+      - -4.539488
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.2434531
+        - 0.06473983
+        - 0.22712757
+  - type: sphere
+    center:
+      - -3.5928614
+      - 0.2
+      - -3.1265016
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.007574541
+        - 0.44772992
+        - 0.099202916
+  - type: sphere
+    center:
+      - -3.6254168
+      - 0.2
+      - -2.330277
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.62808734
+        - 0.06074014
+        - 0.06077136
+  - type: sphere
+    center:
+      - -3.6269464
+      - 0.2
+      - -1.8753603
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.92069304
+        - 0.9252637
+        - 0.93556494
+      fuzzy: 0.42031538
+  - type: sphere
+    center:
+      - -3.1450145
+      - 0.2
+      - -0.37705314
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.042898845
+        - 0.00003877835
+        - 0.13186829
+  - type: sphere
+    center:
+      - -3.8796365
+      - 0.2
+      - 0.2764215
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.39778575
+        - 0.2638361
+        - 0.24276693
+  - type: sphere
+    center:
+      - -3.4052591
+      - 0.2
+      - 1.2394952
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.2183296
+        - 0.52633375
+        - 0.39172113
+  - type: sphere
+    center:
+      - -3.992956
+      - 0.2
+      - 2.6878042
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.42041078
+        - 0.4437506
+        - 0.44503605
+  - type: sphere
+    center:
+      - -3.3434494
+      - 0.2
+      - 3.2558012
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.16982715
+        - 0.08430439
+        - 0.02632017
+  - type: sphere
+    center:
+      - -3.834802
+      - 0.2
+      - 4.3587203
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.105842605
+        - 0.13298064
+        - 0.3280314
+  - type: sphere
+    center:
+      - -3.9879541
+      - 0.2
+      - 5.112467
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.06310601
+        - 0.20392916
+        - 0.40623936
+  - type: sphere
+    center:
+      - -3.160552
+      - 0.2
+      - 6.7227573
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.005101902
+        - 0.19010419
+        - 0.40198866
+  - type: sphere
+    center:
+      - -3.7330298
+      - 0.2
+      - 7.788736
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.6394831
+        - 0.03699325
+        - 0.0096961
+  - type: sphere
+    center:
+      - -3.4353366
+      - 0.2
+      - 8.362556
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.20802435
+        - 0.13612619
+        - 0.26872122
+  - type: sphere
+    center:
+      - -3.7609186
+      - 0.2
+      - 9.895152
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.7262645
+        - 0.52055037
+        - 0.5375089
+      fuzzy: 0.21567237
+  - type: sphere
+    center:
+      - -3.4405308
+      - 0.2
+      - 10.877972
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.83509475
+        - 0.04954343
+        - 0.63950545
+  - type: sphere
+    center:
+      - -2.104701
+      - 0.2
+      - -10.17103
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.15833922
+        - 0.39465654
+        - 0.5156935
+  - type: sphere
+    center:
+      - -2.3929417
+      - 0.2
+      - -9.314001
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.25404167
+        - 0.7025083
+        - 0.031468075
+  - type: sphere
+    center:
+      - -2.9350805
+      - 0.2
+      - -8.3158
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.06719343
+        - 0.016443351
+        - 0.044759016
+  - type: sphere
+    center:
+      - -2.3155742
+      - 0.2
+      - -7.1530266
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.3470202
+        - 0.002442513
+        - 0.06621893
+  - type: sphere
+    center:
+      - -2.5126271
+      - 0.2
+      - -6.666674
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.51417124
+        - 0.010738672
+        - 0.113139905
+  - type: sphere
+    center:
+      - -2.596085
+      - 0.2
+      - -5.5518813
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.5610295
+        - 0.7861325
+        - 0.82701355
+      fuzzy: 0.41574025
+  - type: sphere
+    center:
+      - -2.4572115
+      - 0.2
+      - -4.7220607
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.2046933
+        - 0.5993368
+        - 0.23206371
+  - type: sphere
+    center:
+      - -2.7926028
+      - 0.2
+      - -3.5673227
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.5215047
+        - 0.9335297
+        - 0.53102374
+      fuzzy: 0.15154535
+  - type: sphere
+    center:
+      - -2.2904768
+      - 0.2
+      - -2.6034687
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.6041345
+        - 0.99146545
+        - 0.6278485
+      fuzzy: 0.16019374
+  - type: sphere
+    center:
+      - -2.8235044
+      - 0.2
+      - -1.4558392
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.18277054
+        - 0.8002364
+        - 0.03892637
+  - type: sphere
+    center:
+      - -2.3824265
+      - 0.2
+      - -0.47819638
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.14763147
+        - 0.43198672
+        - 0.15059726
+  - type: sphere
+    center:
+      - -2.7987452
+      - 0.2
+      - 0.5286833
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.15202305
+        - 0.19777617
+        - 0.256532
+  - type: sphere
+    center:
+      - -2.8481224
+      - 0.2
+      - 1.3155015
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.40676814
+        - 0.01726135
+        - 0.118073784
+  - type: sphere
+    center:
+      - -2.5645223
+      - 0.2
+      - 2.0527809
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.36472481
+        - 0.12953982
+        - 0.3551482
+  - type: sphere
+    center:
+      - -2.6852908
+      - 0.2
+      - 3.0176778
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.4109765
+        - 0.9464326
+        - 0.28528282
+  - type: sphere
+    center:
+      - -2.9230905
+      - 0.2
+      - 4.4888253
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.99754965
+        - 0.93372124
+        - 0.8005366
+      fuzzy: 0.12635857
+  - type: sphere
+    center:
+      - -2.329636
+      - 0.2
+      - 5.05087
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.45855394
+        - 0.14375986
+        - 0.30793262
+  - type: sphere
+    center:
+      - -2.365657
+      - 0.2
+      - 6.845751
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.21875103
+        - 0.60399723
+        - 0.06290565
+  - type: sphere
+    center:
+      - -2.7273397
+      - 0.2
+      - 7.462906
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.116994545
+        - 0.09419286
+        - 0.066336475
+  - type: sphere
+    center:
+      - -2.8820393
+      - 0.2
+      - 8.531713
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.04028513
+        - 0.27026522
+        - 0.6831471
+  - type: sphere
+    center:
+      - -2.451823
+      - 0.2
+      - 9.442682
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.26544628
+        - 0.03279026
+        - 0.0040131086
+  - type: sphere
+    center:
+      - -2.7212636
+      - 0.2
+      - 10.148883
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.7042228
+        - 0.7990661
+        - 0.9497619
+      fuzzy: 0.39979732
+  - type: sphere
+    center:
+      - -1.3594779
+      - 0.2
+      - -10.515156
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.08364837
+        - 0.018820614
+        - 0.70257056
+  - type: sphere
+    center:
+      - -1.1731019
+      - 0.2
+      - -9.841737
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.7936824
+        - 0.61885214
+        - 0.907899
+      fuzzy: 0.34286368
+  - type: sphere
+    center:
+      - -1.9163642
+      - 0.2
+      - -8.361708
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.03099322
+        - 0.03453673
+        - 0.14960802
+  - type: sphere
+    center:
+      - -1.3282981
+      - 0.2
+      - -7.664988
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.42724293
+        - 0.035559803
+        - 0.0031537719
+  - type: sphere
+    center:
+      - -1.8578882
+      - 0.2
+      - -6.394527
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.029895274
+        - 0.051193334
+        - 0.107625134
+  - type: sphere
+    center:
+      - -1.1154742
+      - 0.2
+      - -5.961197
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.09784286
+        - 0.58143234
+        - 0.10925021
+  - type: sphere
+    center:
+      - -1.9694681
+      - 0.2
+      - -4.906874
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.010817008
+        - 0.04261467
+        - 0.059376474
+  - type: sphere
+    center:
+      - -1.7243066
+      - 0.2
+      - -3.506402
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.6755457
+        - 0.0019951572
+        - 0.97300553
+  - type: sphere
+    center:
+      - -1.2457432
+      - 0.2
+      - -2.7229724
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.6750959
+        - 0.93609875
+        - 0.56230545
+      fuzzy: 0.237064
+  - type: sphere
+    center:
+      - -1.1058979
+      - 0.2
+      - -1.1167064
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.504957
+        - 0.5867482
+        - 0.9109051
+      fuzzy: 0.48882145
+  - type: sphere
+    center:
+      - -1.3252041
+      - 0.2
+      - -0.5803822
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.3102302
+        - 0.4266944
+        - 0.16628423
+  - type: sphere
+    center:
+      - -1.28093
+      - 0.2
+      - 0.6489849
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.23518327
+        - 0.10228931
+        - 0.15496892
+  - type: sphere
+    center:
+      - -1.4342027
+      - 0.2
+      - 1.4827858
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.88746494
+        - 0.95979005
+        - 0.616237
+      fuzzy: 0.49187946
+  - type: sphere
+    center:
+      - -1.9000355
+      - 0.2
+      - 2.1839578
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.7094058
+        - 0.002925194
+        - 0.024629053
+  - type: sphere
+    center:
+      - -1.6028414
+      - 0.2
+      - 3.2054615
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.117627434
+        - 0.09512728
+        - 0.09141153
+  - type: sphere
+    center:
+      - -1.1194382
+      - 0.2
+      - 4.2367907
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.37140703
+        - 0.5127785
+        - 0.071294054
+  - type: sphere
+    center:
+      - -1.8552713
+      - 0.2
+      - 5.4439874
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.09569147
+        - 0.35847205
+        - 0.051202845
+  - type: sphere
+    center:
+      - -1.7912331
+      - 0.2
+      - 6.0472507
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.3679525
+        - 0.5048844
+        - 0.0061261165
+  - type: sphere
+    center:
+      - -1.6142603
+      - 0.2
+      - 7.7213893
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.03308266
+        - 0.20253943
+        - 0.32366392
+  - type: sphere
+    center:
+      - -1.2217771
+      - 0.2
+      - 8.025793
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.27599868
+        - 0.5707541
+        - 0.42104912
+  - type: sphere
+    center:
+      - -1.3241353
+      - 0.2
+      - 9.005412
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.10178023
+        - 0.5731072
+        - 0.60711956
+  - type: sphere
+    center:
+      - -1.2446632
+      - 0.2
+      - 10.132649
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.12600066
+        - 0.15233697
+        - 0.42194742
+  - type: sphere
+    center:
+      - -0.58144236
+      - 0.2
+      - -10.23741
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.7855348
+        - 0.61368555
+        - 0.90518534
+      fuzzy: 0.22700906
+  - type: sphere
+    center:
+      - -0.67762387
+      - 0.2
+      - -9.577121
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.7977993
+        - 0.0101835625
+        - 0.03631617
+  - type: sphere
+    center:
+      - -0.9635334
+      - 0.2
+      - -8.641613
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.1531277
+        - 0.0047049467
+        - 0.037506647
+  - type: sphere
+    center:
+      - -0.4949171
+      - 0.2
+      - -7.9214377
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.16618355
+        - 0.8392291
+        - 0.05814937
+  - type: sphere
+    center:
+      - -0.652025
+      - 0.2
+      - -6.1164756
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.07387186
+        - 0.40877643
+        - 0.16990145
+  - type: sphere
+    center:
+      - -0.6509687
+      - 0.2
+      - -5.4991875
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.24481474
+        - 0.85899663
+        - 0.0012232646
+  - type: sphere
+    center:
+      - -0.7643698
+      - 0.2
+      - -4.929538
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.4805945
+        - 0.18548141
+        - 0.25249574
+  - type: sphere
+    center:
+      - -0.9471274
+      - 0.2
+      - -3.7572467
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0718829
+        - 0.16814305
+        - 0.22979628
+  - type: sphere
+    center:
+      - -0.78364146
+      - 0.2
+      - -2.9325132
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.25381386
+        - 0.15283717
+        - 0.6149223
+  - type: sphere
+    center:
+      - -0.7371258
+      - 0.2
+      - -1.7304583
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.2505085
+        - 0.44850725
+        - 0.04506275
+  - type: sphere
+    center:
+      - -0.44086003
+      - 0.2
+      - -0.5062399
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.7768011
+        - 0.73489785
+        - 0.5601141
+      fuzzy: 0.009923637
+  - type: sphere
+    center:
+      - -0.2801774
+      - 0.2
+      - 0.16149665
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.23546427
+        - 0.85609853
+        - 0.15807757
+  - type: sphere
+    center:
+      - -0.74665165
+      - 0.2
+      - 1.4672389
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.08671338
+        - 0.15955448
+        - 0.030647542
+  - type: sphere
+    center:
+      - -0.30531824
+      - 0.2
+      - 2.7898016
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.575533
+        - 0.97076577
+        - 0.5781147
+      fuzzy: 0.08844519
+  - type: sphere
+    center:
+      - -0.70092154
+      - 0.2
+      - 3.1032722
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.457226
+        - 0.08976717
+        - 0.4538389
+  - type: sphere
+    center:
+      - -0.29092193
+      - 0.2
+      - 4.6101823
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.48897454
+        - 0.022557719
+        - 0.6527916
+  - type: sphere
+    center:
+      - -0.14776623
+      - 0.2
+      - 5.3123536
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.14513643
+        - 0.22392257
+        - 0.25618836
+  - type: sphere
+    center:
+      - -0.61515653
+      - 0.2
+      - 6.1812506
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0917199
+        - 0.47984028
+        - 0.105734214
+  - type: sphere
+    center:
+      - -0.7299011
+      - 0.2
+      - 7.192836
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.83317107
+        - 0.67737484
+        - 0.6920318
+      fuzzy: 0.42277902
+  - type: sphere
+    center:
+      - -0.4204421
+      - 0.2
+      - 8.367853
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.17562222
+        - 0.05909653
+        - 0.0062040254
+  - type: sphere
+    center:
+      - -0.2921371
+      - 0.2
+      - 9.1005745
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.10251852
+        - 0.014643058
+        - 0.22546402
+  - type: sphere
+    center:
+      - -0.68552804
+      - 0.2
+      - 10.083745
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.8637475
+        - 0.92404485
+        - 0.7967468
+      fuzzy: 0.2552784
+  - type: sphere
+    center:
+      - 0.5137342
+      - 0.2
+      - -10.793426
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.6417234
+        - 0.8147705
+        - 0.6248899
+      fuzzy: 0.45476663
+  - type: sphere
+    center:
+      - 0.7752378
+      - 0.2
+      - -9.283427
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.5526729
+        - 0.20268849
+        - 0.57708293
+  - type: sphere
+    center:
+      - 0.41339663
+      - 0.2
+      - -8.285308
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.7508634
+        - 0.5534233
+        - 0.82649267
+      fuzzy: 0.291775
+  - type: sphere
+    center:
+      - 0.44927606
+      - 0.2
+      - -7.1055245
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.2593005
+        - 0.16252017
+        - 0.18437308
+  - type: sphere
+    center:
+      - 0.40674588
+      - 0.2
+      - -6.4517603
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.28929588
+        - 0.56432086
+        - 0.13279988
+  - type: sphere
+    center:
+      - 0.4720678
+      - 0.2
+      - -5.984428
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.1339555
+        - 0.49206558
+        - 0.7391135
+  - type: sphere
+    center:
+      - 0.38816744
+      - 0.2
+      - -4.468204
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.540184
+        - 0.27005002
+        - 0.09725819
+  - type: sphere
+    center:
+      - 0.82151747
+      - 0.2
+      - -3.5802014
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.16791594
+        - 0.1570427
+        - 0.7046294
+  - type: sphere
+    center:
+      - 0.34107956
+      - 0.2
+      - -2.3336248
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.07747802
+        - 0.14895633
+        - 0.22698593
+  - type: sphere
+    center:
+      - 0.2649824
+      - 0.2
+      - -1.8838964
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.02385496
+        - 0.10910782
+        - 0.33200786
+  - type: sphere
+    center:
+      - 0.5003142
+      - 0.2
+      - -0.7796885
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.50230825
+        - 0.011288203
+        - 0.19275871
+  - type: sphere
+    center:
+      - 0.64821064
+      - 0.2
+      - 0.24666956
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.20398282
+        - 0.2598069
+        - 0.2425455
+  - type: sphere
+    center:
+      - 0.64858776
+      - 0.2
+      - 1.5699692
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.12253209
+        - 0.08376101
+        - 0.14864174
+  - type: sphere
+    center:
+      - 0.421335
+      - 0.2
+      - 2.5495312
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.046771817
+        - 0.62248796
+        - 0.59449726
+  - type: sphere
+    center:
+      - 0.64003485
+      - 0.2
+      - 3.5804038
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.6575115
+        - 0.22742347
+        - 0.22277093
+  - type: sphere
+    center:
+      - 0.019036442
+      - 0.2
+      - 4.821168
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.5654937
+        - 0.017078232
+        - 0.05532467
+  - type: sphere
+    center:
+      - 0.43141624
+      - 0.2
+      - 5.607984
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.04866309
+        - 0.7734536
+        - 0.08128558
+  - type: sphere
+    center:
+      - 0.37331992
+      - 0.2
+      - 6.5308065
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.5377197
+        - 0.094759196
+        - 0.72321725
+  - type: sphere
+    center:
+      - 0.66290593
+      - 0.2
+      - 7.320181
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.08854177
+        - 0.19616911
+        - 0.04259474
+  - type: sphere
+    center:
+      - 0.6612577
+      - 0.2
+      - 8.174634
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.9353451
+        - 0.77243453
+        - 0.9977282
+      fuzzy: 0.31234372
+  - type: sphere
+    center:
+      - 0.45614317
+      - 0.2
+      - 9.749468
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.04528195
+        - 0.028086372
+        - 0.15710455
+  - type: sphere
+    center:
+      - 0.8774367
+      - 0.2
+      - 10.866391
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.018797254
+        - 0.1671835
+        - 0.65957904
+  - type: sphere
+    center:
+      - 1.6585445
+      - 0.2
+      - -10.148
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.23479427
+        - 0.14070688
+        - 0.3819547
+  - type: sphere
+    center:
+      - 1.3141642
+      - 0.2
+      - -9.2862015
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.12968782
+        - 0.043089736
+        - 0.013779647
+  - type: sphere
+    center:
+      - 1.5320125
+      - 0.2
+      - -8.70993
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.6386359
+        - 0.33716688
+        - 0.019868571
+  - type: sphere
+    center:
+      - 1.6862829
+      - 0.2
+      - -7.352387
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.25012693
+        - 0.3784207
+        - 0.6058493
+  - type: sphere
+    center:
+      - 1.2290202
+      - 0.2
+      - -6.694218
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.67369854
+        - 0.6322895
+        - 0.19788367
+  - type: sphere
+    center:
+      - 1.4734976
+      - 0.2
+      - -5.3190317
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.28203654
+        - 0.37626702
+        - 0.07698658
+  - type: sphere
+    center:
+      - 1.564331
+      - 0.2
+      - -4.704884
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.029638132
+        - 0.0066001765
+        - 0.21748585
+  - type: sphere
+    center:
+      - 1.4057386
+      - 0.2
+      - -3.519513
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.4413219
+        - 0.24374358
+        - 0.09519593
+  - type: sphere
+    center:
+      - 1.2911975
+      - 0.2
+      - -2.3287203
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.6148707
+        - 0.99941283
+        - 0.9701892
+      fuzzy: 0.35163516
+  - type: sphere
+    center:
+      - 1.656179
+      - 0.2
+      - -1.5597678
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.9627965
+        - 0.7721201
+        - 0.80017567
+      fuzzy: 0.39887977
+  - type: sphere
+    center:
+      - 1.5318861
+      - 0.2
+      - -0.16122562
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.5269506
+        - 0.035546012
+        - 0.14331864
+  - type: sphere
+    center:
+      - 1.5311
+      - 0.2
+      - 0.4133352
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.7067499
+        - 0.43372613
+        - 0.27323017
+  - type: sphere
+    center:
+      - 1.0782722
+      - 0.2
+      - 1.6872046
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.15017384
+        - 0.460371
+        - 0.33450773
+  - type: sphere
+    center:
+      - 1.4754341
+      - 0.2
+      - 2.5289612
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.80963266
+        - 0.64603865
+        - 0.8125547
+      fuzzy: 0.4698606
+  - type: sphere
+    center:
+      - 1.6241373
+      - 0.2
+      - 3.364827
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.3815628
+        - 0.026478225
+        - 0.62647814
+  - type: sphere
+    center:
+      - 1.6857481
+      - 0.2
+      - 4.4137764
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.7549427
+        - 0.6053779
+        - 0.010338039
+  - type: sphere
+    center:
+      - 1.8113818
+      - 0.2
+      - 5.048096
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.21419427
+        - 0.7139648
+        - 0.47758684
+  - type: sphere
+    center:
+      - 1.4178784
+      - 0.2
+      - 6.0431986
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.14037025
+        - 0.48860875
+        - 0.4627524
+  - type: sphere
+    center:
+      - 1.7205169
+      - 0.2
+      - 7.333161
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.011111147
+        - 0.37567693
+        - 0.471241
+  - type: sphere
+    center:
+      - 1.393315
+      - 0.2
+      - 8.752855
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.13398756
+        - 0.55184406
+        - 0.15002145
+  - type: sphere
+    center:
+      - 1.4738072
+      - 0.2
+      - 9.38244
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.11792612
+        - 0.14305542
+        - 0.060245913
+  - type: sphere
+    center:
+      - 1.1989429
+      - 0.2
+      - 10.24369
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.018856892
+        - 0.21987446
+        - 0.0018802492
+  - type: sphere
+    center:
+      - 2.7640953
+      - 0.2
+      - -10.896146
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.2741324
+        - 0.43199426
+        - 0.46329427
+  - type: sphere
+    center:
+      - 2.7234693
+      - 0.2
+      - -9.2248535
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.036099248
+        - 0.11917282
+        - 0.75462925
+  - type: sphere
+    center:
+      - 2.0059536
+      - 0.2
+      - -8.275452
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.30937606
+        - 0.7246951
+        - 0.44465205
+  - type: sphere
+    center:
+      - 2.7886872
+      - 0.2
+      - -7.333122
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.5125489
+        - 0.72105
+        - 0.5528813
+      fuzzy: 0.13597727
+  - type: sphere
+    center:
+      - 2.2676985
+      - 0.2
+      - -6.3337092
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.7776372
+        - 0.65488416
+        - 0.6399542
+      fuzzy: 0.29936308
+  - type: sphere
+    center:
+      - 2.8244617
+      - 0.2
+      - -5.9325604
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.3482187
+        - 0.27291754
+        - 0.088320665
+  - type: sphere
+    center:
+      - 2.5021102
+      - 0.2
+      - -4.589682
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0024880841
+        - 0.85329276
+        - 0.03374518
+  - type: sphere
+    center:
+      - 2.2784467
+      - 0.2
+      - -3.5491014
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.120877095
+        - 0.007399589
+        - 0.22437692
+  - type: sphere
+    center:
+      - 2.2616632
+      - 0.2
+      - -2.5315638
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.90883076
+        - 0.69159997
+        - 0.77580565
+      fuzzy: 0.32634622
+  - type: sphere
+    center:
+      - 2.5275238
+      - 0.2
+      - -1.7383815
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.645365
+        - 0.58024025
+        - 0.88085556
+      fuzzy: 0.46906972
+  - type: sphere
+    center:
+      - 2.240448
+      - 0.2
+      - -0.7566626
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.5192552
+        - 0.14237517
+        - 0.14031272
+  - type: sphere
+    center:
+      - 2.4820335
+      - 0.2
+      - 0.25801927
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.19151703
+        - 0.8833137
+        - 0.017776279
+  - type: sphere
+    center:
+      - 2.6429322
+      - 0.2
+      - 1.3414997
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.6148531
+        - 0.83896744
+        - 0.056100786
+  - type: sphere
+    center:
+      - 2.2430835
+      - 0.2
+      - 2.6173716
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.24923715
+        - 0.02865984
+        - 0.12684004
+  - type: sphere
+    center:
+      - 2.400573
+      - 0.2
+      - 3.0657442
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.10603284
+        - 0.40313843
+        - 0.59456337
+  - type: sphere
+    center:
+      - 2.7738867
+      - 0.2
+      - 4.707737
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.043763377
+        - 0.010483058
+        - 0.18497175
+  - type: sphere
+    center:
+      - 2.5560608
+      - 0.2
+      - 5.719821
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.71177876
+        - 0.7727699
+        - 0.89975905
+      fuzzy: 0.12182963
+  - type: sphere
+    center:
+      - 2.0431247
+      - 0.2
+      - 6.7329884
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.04048205
+        - 0.20514834
+        - 0.37744075
+  - type: sphere
+    center:
+      - 2.167391
+      - 0.2
+      - 7.4772553
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.34275448
+        - 0.5630131
+        - 0.5815592
+  - type: sphere
+    center:
+      - 2.775598
+      - 0.2
+      - 8.763441
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.74217623
+        - 0.8412084
+        - 0.67568326
+      fuzzy: 0.14881772
+  - type: sphere
+    center:
+      - 2.7069616
+      - 0.2
+      - 9.46603
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.09239055
+        - 0.41742477
+        - 0.5411952
+  - type: sphere
+    center:
+      - 2.5823693
+      - 0.2
+      - 10.550464
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.30095023
+        - 0.65281624
+        - 0.41693574
+  - type: sphere
+    center:
+      - 3.03872
+      - 0.2
+      - -10.710482
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.046790965
+        - 0.18967555
+        - 0.22863095
+  - type: sphere
+    center:
+      - 3.6647665
+      - 0.2
+      - -9.696292
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.6168402
+        - 0.7809506
+        - 0.6105777
+      fuzzy: 0.43597275
+  - type: sphere
+    center:
+      - 3.2264264
+      - 0.2
+      - -8.291264
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.84375554
+        - 0.6174223
+        - 0.8274908
+      fuzzy: 0.099059165
+  - type: sphere
+    center:
+      - 3.0497112
+      - 0.2
+      - -7.5772223
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.10468364
+        - 0.18479702
+        - 0.14101809
+  - type: sphere
+    center:
+      - 3.6763458
+      - 0.2
+      - -6.2617292
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.37255618
+        - 0.37784877
+        - 0.07814038
+  - type: sphere
+    center:
+      - 3.8706508
+      - 0.2
+      - -5.617149
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.06395167
+        - 0.51818866
+        - 0.72370934
+  - type: sphere
+    center:
+      - 3.1824718
+      - 0.2
+      - -4.6003695
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.19399543
+        - 0.37688756
+        - 0.26019916
+  - type: sphere
+    center:
+      - 3.193013
+      - 0.2
+      - -3.450616
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.028651409
+        - 0.35040316
+        - 0.11525046
+  - type: sphere
+    center:
+      - 3.7014096
+      - 0.2
+      - -2.9217734
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.21193051
+        - 0.98259693
+        - 0.009610824
+  - type: sphere
+    center:
+      - 3.5087757
+      - 0.2
+      - -1.9098256
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.6699087
+        - 0.028924763
+        - 0.3321119
+  - type: sphere
+    center:
+      - 3.340252
+      - 0.2
+      - -0.8164685
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.22402497
+        - 0.05902081
+        - 0.0923614
+  - type: sphere
+    center:
+      - 3.372837
+      - 0.2
+      - 1.171642
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.61565113
+        - 0.6735636
+        - 0.9424219
+      fuzzy: 0.4232034
+  - type: sphere
+    center:
+      - 3.0688498
+      - 0.2
+      - 2.2269878
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.06641544
+        - 0.2693208
+        - 0.4132666
+  - type: sphere
+    center:
+      - 3.4499655
+      - 0.2
+      - 3.1935637
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.271865
+        - 0.027439704
+        - 0.0009473811
+  - type: sphere
+    center:
+      - 3.0479698
+      - 0.2
+      - 4.076118
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.056073252
+        - 0.18721557
+        - 0.6718424
+  - type: sphere
+    center:
+      - 3.096626
+      - 0.2
+      - 5.6595407
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.2851338
+        - 0.53814495
+        - 0.6913608
+  - type: sphere
+    center:
+      - 3.3858814
+      - 0.2
+      - 6.706136
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.11777186
+        - 0.181341
+        - 0.3072448
+  - type: sphere
+    center:
+      - 3.5411255
+      - 0.2
+      - 7.163852
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.06324583
+        - 0.27137783
+        - 0.012531361
+  - type: sphere
+    center:
+      - 3.444791
+      - 0.2
+      - 8.0428095
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.12816806
+        - 0.11988294
+        - 0.103887506
+  - type: sphere
+    center:
+      - 3.087369
+      - 0.2
+      - 9.252375
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.22110362
+        - 0.3624458
+        - 0.09737751
+  - type: sphere
+    center:
+      - 3.5670433
+      - 0.2
+      - 10.191802
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.41576922
+        - 0.09581466
+        - 0.116482526
+  - type: sphere
+    center:
+      - 4.8321695
+      - 0.2
+      - -10.45223
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.901708
+        - 0.9313828
+        - 0.83909667
+      fuzzy: 0.4684766
+  - type: sphere
+    center:
+      - 4.1440163
+      - 0.2
+      - -9.311531
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.40867186
+        - 0.86171865
+        - 0.026676063
+  - type: sphere
+    center:
+      - 4.838628
+      - 0.2
+      - -8.75792
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.40299666
+        - 0.46461383
+        - 0.099270195
+  - type: sphere
+    center:
+      - 4.4310217
+      - 0.2
+      - -7.6806912
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.5738135
+        - 0.8312728
+        - 0.6871456
+      fuzzy: 0.13738984
+  - type: sphere
+    center:
+      - 4.633411
+      - 0.2
+      - -6.673057
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.6824149
+        - 0.69909894
+        - 0.7111332
+      fuzzy: 0.22830343
+  - type: sphere
+    center:
+      - 4.577354
+      - 0.2
+      - -5.597825
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.25246793
+        - 0.3309
+        - 0.22500841
+  - type: sphere
+    center:
+      - 4.8825154
+      - 0.2
+      - -4.825723
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.10017106
+        - 0.6054113
+        - 0.30793244
+  - type: sphere
+    center:
+      - 4.8489194
+      - 0.2
+      - -3.8848057
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.04663784
+        - 0.034505516
+        - 0.06173049
+  - type: sphere
+    center:
+      - 4.287055
+      - 0.2
+      - -2.9981954
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.2827649
+        - 0.42830938
+        - 0.110763386
+  - type: sphere
+    center:
+      - 4.7269406
+      - 0.2
+      - -1.5443972
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.27405655
+        - 0.18309654
+        - 0.27166453
+  - type: sphere
+    center:
+      - 4.0201044
+      - 0.2
+      - 1.0208733
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.18584913
+        - 0.5137453
+        - 0.2022262
+  - type: sphere
+    center:
+      - 4.329095
+      - 0.2
+      - 2.6352198
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0012968994
+        - 0.4880458
+        - 0.7739758
+  - type: sphere
+    center:
+      - 4.268975
+      - 0.2
+      - 3.3077478
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.21732877
+        - 0.15737782
+        - 0.007675844
+  - type: sphere
+    center:
+      - 4.4928184
+      - 0.2
+      - 4.0728
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.28946325
+        - 0.26052922
+        - 0.010603029
+  - type: sphere
+    center:
+      - 4.4297133
+      - 0.2
+      - 5.566369
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.34749278
+        - 0.6718312
+        - 0.10542097
+  - type: sphere
+    center:
+      - 4.7996173
+      - 0.2
+      - 6.033099
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.8350962
+        - 0.039971184
+        - 0.034790766
+  - type: sphere
+    center:
+      - 4.3134165
+      - 0.2
+      - 7.2363367
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.7888867
+        - 0.98676145
+        - 0.7619315
+      fuzzy: 0.31162804
+  - type: sphere
+    center:
+      - 4.784481
+      - 0.2
+      - 8.610609
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.34432977
+        - 0.5601063
+        - 0.4518696
+  - type: sphere
+    center:
+      - 4.5846267
+      - 0.2
+      - 9.67167
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.39416257
+        - 0.0131153725
+        - 0.0003063686
+  - type: sphere
+    center:
+      - 4.030797
+      - 0.2
+      - 10.475782
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.07955602
+        - 0.042378597
+        - 0.13894251
+  - type: sphere
+    center:
+      - 5.608812
+      - 0.2
+      - -10.755734
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0663187
+        - 0.47337243
+        - 0.011145396
+  - type: sphere
+    center:
+      - 5.5539536
+      - 0.2
+      - -9.48016
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.23580737
+        - 0.2957545
+        - 0.12317808
+  - type: sphere
+    center:
+      - 5.774768
+      - 0.2
+      - -8.74978
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.17256778
+        - 0.46982113
+        - 0.13108808
+  - type: sphere
+    center:
+      - 5.0201406
+      - 0.2
+      - -7.1355505
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.5297254
+        - 0.8426745
+        - 0.5283683
+      fuzzy: 0.09271628
+  - type: sphere
+    center:
+      - 5.261232
+      - 0.2
+      - -6.921743
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.71488345
+        - 0.8238667
+        - 0.72283643
+      fuzzy: 0.42614388
+  - type: sphere
+    center:
+      - 5.013788
+      - 0.2
+      - -5.5746064
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.67965996
+        - 0.2971293
+        - 0.23634629
+  - type: sphere
+    center:
+      - 5.7537417
+      - 0.2
+      - -4.5546365
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.64885753
+        - 0.012603807
+        - 0.5218424
+  - type: sphere
+    center:
+      - 5.638809
+      - 0.2
+      - -3.4314756
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0032634633
+        - 0.101591654
+        - 0.041746084
+  - type: sphere
+    center:
+      - 5.2845836
+      - 0.2
+      - -2.8724742
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.043368932
+        - 0.33104417
+        - 0.15255183
+  - type: sphere
+    center:
+      - 5.0006313
+      - 0.2
+      - -1.1531374
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.08746604
+        - 0.035913467
+        - 0.11741957
+  - type: sphere
+    center:
+      - 5.6605682
+      - 0.2
+      - -0.13131583
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.60212487
+        - 0.56557053
+        - 0.7293435
+      fuzzy: 0.32071257
+  - type: sphere
+    center:
+      - 5.063631
+      - 0.2
+      - 0.8697144
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.114771515
+        - 0.057148322
+        - 0.30285746
+  - type: sphere
+    center:
+      - 5.8631134
+      - 0.2
+      - 1.0021544
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.06493337
+        - 0.24003455
+        - 0.64619404
+  - type: sphere
+    center:
+      - 5.5449853
+      - 0.2
+      - 2.1744058
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.03161352
+        - 0.13058893
+        - 0.44666073
+  - type: sphere
+    center:
+      - 5.014566
+      - 0.2
+      - 3.4792233
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.030058458
+        - 0.25239834
+        - 0.31166896
+  - type: sphere
+    center:
+      - 5.8615665
+      - 0.2
+      - 4.7047715
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.061797943
+        - 0.059112135
+        - 0.18160228
+  - type: sphere
+    center:
+      - 5.1118293
+      - 0.2
+      - 5.007341
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.833539
+        - 0.70605874
+        - 0.52641267
+      fuzzy: 0.07526153
+  - type: sphere
+    center:
+      - 5.3467937
+      - 0.2
+      - 6.333047
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.11517751
+        - 0.49018452
+        - 0.19375145
+  - type: sphere
+    center:
+      - 5.1121545
+      - 0.2
+      - 7.1110916
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.9267599
+        - 0.66266006
+        - 0.5226355
+      fuzzy: 0.3302154
+  - type: sphere
+    center:
+      - 5.1633534
+      - 0.2
+      - 8.670286
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.5115942
+        - 0.7841072
+        - 0.608958
+      fuzzy: 0.08749151
+  - type: sphere
+    center:
+      - 5.502678
+      - 0.2
+      - 9.865058
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.89559364
+        - 0.20553285
+        - 0.6503263
+  - type: sphere
+    center:
+      - 5.0838304
+      - 0.2
+      - 10.1173115
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.52423096
+        - 0.42871258
+        - 0.33207417
+  - type: sphere
+    center:
+      - 6.8510065
+      - 0.2
+      - -10.256535
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.01720054
+        - 0.020794898
+        - 0.3319886
+  - type: sphere
+    center:
+      - 6.78521
+      - 0.2
+      - -9.638818
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.15302342
+        - 0.28193083
+        - 0.07255209
+  - type: sphere
+    center:
+      - 6.7470846
+      - 0.2
+      - -8.970117
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.028958682
+        - 0.531584
+        - 0.1784064
+  - type: sphere
+    center:
+      - 6.815825
+      - 0.2
+      - -7.2641716
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.43765137
+        - 0.4111061
+        - 0.1213603
+  - type: sphere
+    center:
+      - 6.124696
+      - 0.2
+      - -6.5113225
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.30455837
+        - 0.09384436
+        - 0.011871595
+  - type: sphere
+    center:
+      - 6.6356077
+      - 0.2
+      - -5.873785
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.58725417
+        - 0.01354948
+        - 0.57103634
+  - type: sphere
+    center:
+      - 6.8854375
+      - 0.2
+      - -4.157057
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.92496514
+        - 0.88829404
+        - 0.97890496
+      fuzzy: 0.07269883
+  - type: sphere
+    center:
+      - 6.596487
+      - 0.2
+      - -3.8025906
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.03253617
+        - 0.4148748
+        - 0.04100451
+  - type: sphere
+    center:
+      - 6.2540493
+      - 0.2
+      - -2.450699
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.2981452
+        - 0.49876976
+        - 0.083386406
+  - type: sphere
+    center:
+      - 6.5726213
+      - 0.2
+      - -1.7724724
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.14715743
+        - 0.5076638
+        - 0.018599957
+  - type: sphere
+    center:
+      - 6.0156045
+      - 0.2
+      - -0.9217488
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.14587049
+        - 0.070750885
+        - 0.2745792
+  - type: sphere
+    center:
+      - 6.436606
+      - 0.2
+      - 0.563362
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.30823782
+        - 0.046069648
+        - 0.16997772
+  - type: sphere
+    center:
+      - 6.033875
+      - 0.2
+      - 1.622933
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.005214999
+        - 0.078450985
+        - 0.068756856
+  - type: sphere
+    center:
+      - 6.6847363
+      - 0.2
+      - 2.6084387
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.204003
+        - 0.1023562
+        - 0.0028150978
+  - type: sphere
+    center:
+      - 6.836452
+      - 0.2
+      - 3.3733397
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.24037918
+        - 0.44025084
+        - 0.26982093
+  - type: sphere
+    center:
+      - 6.358176
+      - 0.2
+      - 4.2346644
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0009466283
+        - 0.108332485
+        - 0.051676933
+  - type: sphere
+    center:
+      - 6.7773585
+      - 0.2
+      - 5.5257087
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.088319875
+        - 0.05173581
+        - 0.4361398
+  - type: sphere
+    center:
+      - 6.699364
+      - 0.2
+      - 6.421058
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.21164437
+        - 0.37871563
+        - 0.041333057
+  - type: sphere
+    center:
+      - 6.854112
+      - 0.2
+      - 7.036414
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.51582223
+        - 0.3174508
+        - 0.21124148
+  - type: sphere
+    center:
+      - 6.812936
+      - 0.2
+      - 8.195732
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.6763593
+        - 0.95187706
+        - 0.598032
+      fuzzy: 0.26314694
+  - type: sphere
+    center:
+      - 6.0940104
+      - 0.2
+      - 9.505429
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.08546091
+        - 0.16762927
+        - 0.5213743
+  - type: sphere
+    center:
+      - 6.766987
+      - 0.2
+      - 10.656703
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.11760815
+        - 0.12989585
+        - 0.29243696
+  - type: sphere
+    center:
+      - 7.832609
+      - 0.2
+      - -10.521037
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.3374397
+        - 0.37375322
+        - 0.18845874
+  - type: sphere
+    center:
+      - 7.6028357
+      - 0.2
+      - -9.61608
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.1449924
+        - 0.55756974
+        - 0.0427415
+  - type: sphere
+    center:
+      - 7.2990108
+      - 0.2
+      - -8.373194
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.4546706
+        - 0.31821683
+        - 0.02068367
+  - type: sphere
+    center:
+      - 7.7738767
+      - 0.2
+      - -7.7433524
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.23403238
+        - 0.20411327
+        - 0.08738641
+  - type: sphere
+    center:
+      - 7.8109918
+      - 0.2
+      - -6.3054357
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.8265192
+        - 0.36660704
+        - 0.2887006
+  - type: sphere
+    center:
+      - 7.1274867
+      - 0.2
+      - -5.638426
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.909148
+        - 0.7869036
+        - 0.6180038
+      fuzzy: 0.30439907
+  - type: sphere
+    center:
+      - 7.7822313
+      - 0.2
+      - -4.468468
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.3489705
+        - 0.3383499
+        - 0.21519539
+  - type: sphere
+    center:
+      - 7.0202885
+      - 0.2
+      - -3.9330523
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.12288953
+        - 0.004180685
+        - 0.2342517
+  - type: sphere
+    center:
+      - 7.699153
+      - 0.2
+      - -2.6614623
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.88192695
+        - 0.5933348
+        - 0.57692647
+      fuzzy: 0.34807223
+  - type: sphere
+    center:
+      - 7.5946493
+      - 0.2
+      - -1.503701
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.09219736
+        - 0.14465451
+        - 0.7264575
+  - type: sphere
+    center:
+      - 7.139005
+      - 0.2
+      - -0.55089545
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.55511945
+        - 0.004084942
+        - 0.28128096
+  - type: sphere
+    center:
+      - 7.470891
+      - 0.2
+      - 0.7890432
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.15742332
+        - 0.12026384
+        - 0.72084785
+  - type: sphere
+    center:
+      - 7.4416595
+      - 0.2
+      - 1.5319982
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.18508531
+        - 0.45330083
+        - 0.052491613
+  - type: sphere
+    center:
+      - 7.0099607
+      - 0.2
+      - 2.246642
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0782812
+        - 0.18830317
+        - 0.49912402
+  - type: sphere
+    center:
+      - 7.5083675
+      - 0.2
+      - 3.3268316
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.11531086
+        - 0.37576967
+        - 0.19508472
+  - type: sphere
+    center:
+      - 7.8849764
+      - 0.2
+      - 4.2773037
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.3845305
+        - 0.736338
+        - 0.020022565
+  - type: sphere
+    center:
+      - 7.7570972
+      - 0.2
+      - 5.4471145
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.20117824
+        - 0.15632458
+        - 0.16420054
+  - type: sphere
+    center:
+      - 7.4275575
+      - 0.2
+      - 6.8851533
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.099662624
+        - 0.66029954
+        - 0.24069826
+  - type: sphere
+    center:
+      - 7.788889
+      - 0.2
+      - 7.6318917
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.2611184
+        - 0.03605462
+        - 0.20380111
+  - type: sphere
+    center:
+      - 7.6872225
+      - 0.2
+      - 8.797427
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.4233487
+        - 0.12971883
+        - 0.48702645
+  - type: sphere
+    center:
+      - 7.3965826
+      - 0.2
+      - 9.235639
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.032273144
+        - 0.023563445
+        - 0.35935378
+  - type: sphere
+    center:
+      - 7.2315493
+      - 0.2
+      - 10.212993
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.810567
+        - 0.86144805
+        - 0.65543413
+      fuzzy: 0.05508703
+  - type: sphere
+    center:
+      - 8.715547
+      - 0.2
+      - -10.305088
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.092565
+        - 0.55649865
+        - 0.03242337
+  - type: sphere
+    center:
+      - 8.521053
+      - 0.2
+      - -9.788526
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.82645524
+        - 0.102544524
+        - 0.4226234
+  - type: sphere
+    center:
+      - 8.260822
+      - 0.2
+      - -8.984703
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.68511325
+        - 0.02069747
+        - 0.057995338
+  - type: sphere
+    center:
+      - 8.024776
+      - 0.2
+      - -7.367745
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.069296
+        - 0.053007964
+        - 0.03351809
+  - type: sphere
+    center:
+      - 8.096318
+      - 0.2
+      - -6.7199635
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.17225598
+        - 0.6705702
+        - 0.22298266
+  - type: sphere
+    center:
+      - 8.590141
+      - 0.2
+      - -5.7628317
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.5543701
+        - 0.7180413
+        - 0.684861
+      fuzzy: 0.31343108
+  - type: sphere
+    center:
+      - 8.363662
+      - 0.2
+      - -4.876025
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.271859
+        - 0.6965645
+        - 0.06573887
+  - type: sphere
+    center:
+      - 8.253553
+      - 0.2
+      - -3.9369884
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.6248074
+        - 0.5943995
+        - 0.8686308
+      fuzzy: 0.47289437
+  - type: sphere
+    center:
+      - 8.36317
+      - 0.2
+      - -2.4960184
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.7265679
+        - 0.24856606
+        - 0.568184
+  - type: sphere
+    center:
+      - 8.753112
+      - 0.2
+      - -1.1453226
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.064664625
+        - 0.8963605
+        - 0.5424666
+  - type: sphere
+    center:
+      - 8.6983795
+      - 0.2
+      - -0.9174723
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.09883524
+        - 0.08289331
+        - 0.08644138
+  - type: sphere
+    center:
+      - 8.425657
+      - 0.2
+      - 0.890778
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0120997755
+        - 0.051390167
+        - 0.5063852
+  - type: sphere
+    center:
+      - 8.760313
+      - 0.2
+      - 1.6320214
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0980551
+        - 0.030740153
+        - 0.114046805
+  - type: sphere
+    center:
+      - 8.8709545
+      - 0.2
+      - 2.3297884
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.56121796
+        - 0.13082027
+        - 0.15891688
+  - type: sphere
+    center:
+      - 8.021456
+      - 0.2
+      - 3.1714065
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.35474768
+        - 0.31245902
+        - 0.037714213
+  - type: sphere
+    center:
+      - 8.645245
+      - 0.2
+      - 4.3145285
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.6478812
+        - 0.736432
+        - 0.98381025
+      fuzzy: 0.27862322
+  - type: sphere
+    center:
+      - 8.661805
+      - 0.2
+      - 5.7103987
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.5116876
+        - 0.10597834
+        - 0.17340872
+  - type: sphere
+    center:
+      - 8.783367
+      - 0.2
+      - 6.016773
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.8165485
+        - 0.39627543
+        - 0.0074858046
+  - type: sphere
+    center:
+      - 8.161048
+      - 0.2
+      - 7.225917
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.9850954
+        - 0.7456966
+        - 0.8397881
+      fuzzy: 0.12306821
+  - type: sphere
+    center:
+      - 8.32505
+      - 0.2
+      - 8.308245
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.57291007
+        - 0.76050484
+        - 0.9183393
+      fuzzy: 0.15925586
+  - type: sphere
+    center:
+      - 8.806037
+      - 0.2
+      - 9.288969
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.91306627
+        - 0.8436992
+        - 0.6313237
+      fuzzy: 0.46831906
+  - type: sphere
+    center:
+      - 8.568372
+      - 0.2
+      - 10.676883
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.1031514
+        - 0.02176261
+        - 0.4372392
+  - type: sphere
+    center:
+      - 9.040242
+      - 0.2
+      - -10.150825
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.2704066
+        - 0.1506791
+        - 0.52514935
+  - type: sphere
+    center:
+      - 9.099324
+      - 0.2
+      - -9.549415
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.08115652
+        - 0.5771449
+        - 0.1744078
+  - type: sphere
+    center:
+      - 9.529487
+      - 0.2
+      - -8.684752
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.2636762
+        - 0.12229019
+        - 0.8124257
+  - type: sphere
+    center:
+      - 9.848674
+      - 0.2
+      - -7.166482
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.05443643
+        - 0.6345937
+        - 0.42580125
+  - type: sphere
+    center:
+      - 9.328357
+      - 0.2
+      - -6.5706854
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.10317235
+        - 0.4051515
+        - 0.2343417
+  - type: sphere
+    center:
+      - 9.668348
+      - 0.2
+      - -5.297139
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.07652987
+        - 0.10706485
+        - 0.29166844
+  - type: sphere
+    center:
+      - 9.315003
+      - 0.2
+      - -4.318837
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.79219246
+        - 0.038402043
+        - 0.29598781
+  - type: sphere
+    center:
+      - 9.098773
+      - 0.2
+      - -3.5338295
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.69540024
+        - 0.1322539
+        - 0.17450346
+  - type: sphere
+    center:
+      - 9.351321
+      - 0.2
+      - -2.3639674
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.074806154
+        - 0.18288289
+        - 0.3589481
+  - type: sphere
+    center:
+      - 9.322407
+      - 0.2
+      - -1.6288872
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0045101535
+        - 0.27028954
+        - 0.12490533
+  - type: sphere
+    center:
+      - 9.046627
+      - 0.2
+      - -0.24850667
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.4740628
+        - 0.25160804
+        - 0.019232947
+  - type: sphere
+    center:
+      - 9.178058
+      - 0.2
+      - 0.17790973
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.6382066
+        - 0.92828834
+        - 0.96256036
+      fuzzy: 0.14848119
+  - type: sphere
+    center:
+      - 9.874666
+      - 0.2
+      - 1.545068
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.17363475
+        - 0.16019161
+        - 0.22789767
+  - type: sphere
+    center:
+      - 9.404815
+      - 0.2
+      - 2.371374
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.23212513
+        - 0.011762411
+        - 0.08844076
+  - type: sphere
+    center:
+      - 9.751857
+      - 0.2
+      - 3.829565
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.5374776
+        - 0.86479014
+        - 0.92841244
+      fuzzy: 0.36613947
+  - type: sphere
+    center:
+      - 9.344416
+      - 0.2
+      - 4.6816835
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.38873246
+        - 0.101179384
+        - 0.16073038
+  - type: sphere
+    center:
+      - 9.809212
+      - 0.2
+      - 5.249087
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.6664938
+        - 0.5097961
+        - 0.7977969
+      fuzzy: 0.071065605
+  - type: sphere
+    center:
+      - 9.677558
+      - 0.2
+      - 6.475533
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.5364658
+        - 0.048128583
+        - 0.32854918
+  - type: sphere
+    center:
+      - 9.3989
+      - 0.2
+      - 7.7923927
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.35797733
+        - 0.21335582
+        - 0.25987402
+  - type: sphere
+    center:
+      - 9.799944
+      - 0.2
+      - 8.093877
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0006504174
+        - 0.47034514
+        - 0.7269164
+  - type: sphere
+    center:
+      - 9.466411
+      - 0.2
+      - 9.2306
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.07499624
+        - 0.15149638
+        - 0.13101271
+  - type: sphere
+    center:
+      - 9.098621
+      - 0.2
+      - 10.385994
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.032210764
+        - 0.30562255
+        - 0.24135235
+  - type: sphere
+    center:
+      - 10.726255
+      - 0.2
+      - -10.944457
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.85656625
+        - 0.828689
+        - 0.7173187
+      fuzzy: 0.3485481
+  - type: sphere
+    center:
+      - 10.1630535
+      - 0.2
+      - -9.584435
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.02046756
+        - 0.004205178
+        - 0.124253675
+  - type: sphere
+    center:
+      - 10.203761
+      - 0.2
+      - -8.788982
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.84588635
+        - 0.077066094
+        - 0.0067518675
+  - type: sphere
+    center:
+      - 10.047223
+      - 0.2
+      - -7.185499
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.025727801
+        - 0.007656781
+        - 0.026113063
+  - type: sphere
+    center:
+      - 10.260262
+      - 0.2
+      - -6.108634
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.07733872
+        - 0.20165837
+        - 0.3064498
+  - type: sphere
+    center:
+      - 10.309829
+      - 0.2
+      - -5.3654757
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.035266194
+        - 0.082709484
+        - 0.07344615
+  - type: sphere
+    center:
+      - 10.340038
+      - 0.2
+      - -4.9515448
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.72555506
+        - 0.7803902
+        - 0.20774113
+  - type: sphere
+    center:
+      - 10.631003
+      - 0.2
+      - -3.7268608
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.0049912194
+        - 0.084255695
+        - 0.0014502318
+  - type: sphere
+    center:
+      - 10.2923975
+      - 0.2
+      - -2.7456646
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.4727283
+        - 0.42626345
+        - 0.33145624
+  - type: sphere
+    center:
+      - 10.840045
+      - 0.2
+      - -1.3540353
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.035592046
+        - 0.45096293
+        - 0.56040245
+  - type: sphere
+    center:
+      - 10.513484
+      - 0.2
+      - -0.285546
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.48830187
+        - 0.0182054
+        - 0.3073046
+  - type: sphere
+    center:
+      - 10.860539
+      - 0.2
+      - 0.76294774
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.70173746
+        - 0.13723172
+        - 0.0411034
+  - type: sphere
+    center:
+      - 10.591675
+      - 0.2
+      - 1.0468595
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.796158
+        - 0.96670717
+        - 0.96632683
+      fuzzy: 0.4203732
+  - type: sphere
+    center:
+      - 10.230534
+      - 0.2
+      - 2.3259335
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.14300458
+        - 0.012905804
+        - 0.56026554
+  - type: sphere
+    center:
+      - 10.874857
+      - 0.2
+      - 3.0895038
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.81285363
+        - 0.27435577
+        - 0.021516487
+  - type: sphere
+    center:
+      - 10.087611
+      - 0.2
+      - 4.2584653
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.44304118
+        - 0.10191156
+        - 0.07901718
+  - type: sphere
+    center:
+      - 10.103179
+      - 0.2
+      - 5.5581203
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.21466444
+        - 0.14825013
+        - 0.7163245
+  - type: sphere
+    center:
+      - 10.522547
+      - 0.2
+      - 6.6472416
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.15336707
+        - 0.24064556
+        - 0.29487094
+  - type: sphere
+    center:
+      - 10.451801
+      - 0.2
+      - 7.1380367
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.33890146
+        - 0.042244386
+        - 0.1437702
+  - type: sphere
+    center:
+      - 10.131718
+      - 0.2
+      - 8.347558
+    radius: 0.2
+    material:
+      type: diffuse
+      albedo:
+        - 0.1588949
+        - 0.32546872
+        - 0.023497961
+  - type: sphere
+    center:
+      - 10.534785
+      - 0.2
+      - 9.701258
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.5926783
+        - 0.92753834
+        - 0.6621436
+      fuzzy: 0.41630185
+  - type: sphere
+    center:
+      - 10.314416
+      - 0.2
+      - 10.508887
+    radius: 0.2
+    material:
+      type: metal
+      albedo:
+        - 0.7842602
+        - 0.67664063
+        - 0.7670449
+      fuzzy: 0.014456332
+  - type: sphere
+    center:
+      - 0
+      - 1
+      - 0
+    radius: 1
+    material:
+      type: diffuse
+      albedo:
+        - 0.4
+        - 0.2
+        - 0.1
+  - type: sphere
+    center:
+      - -4
+      - 1
+      - 0
+    radius: 1
+    material:
+      type: diffuse
+      albedo:
+        - 0.4
+        - 0.2
+        - 0.1
+  - type: sphere
+    center:
+      - 4
+      - 1
+      - 0
+    radius: 1
+    material:
+      type: metal
+      albedo:
+        - 0.7
+        - 0.6
+        - 0.5
+      fuzzy: 0

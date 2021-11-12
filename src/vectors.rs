@@ -4,11 +4,29 @@ use std::{
 };
 
 use rand::Rng;
+use serde::{Deserialize, Serialize};
 #[derive(Clone, Copy, PartialEq)]
 pub struct Vec3 {
     pub x: f32,
     pub y: f32,
     pub z: f32,
+}
+impl Serialize for Vec3 {
+    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
+    where
+        S: serde::Serializer,
+    {
+        (self.x, self.y, self.z).serialize(serializer)
+    }
+}
+impl<'de> Deserialize<'de> for Vec3 {
+    fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
+    where
+        D: serde::Deserializer<'de>,
+    {
+        let (x, y, z) = Deserialize::deserialize(deserializer)?;
+        Ok(Vec3 { x, y, z })
+    }
 }
 impl Debug for Vec3 {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {

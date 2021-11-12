@@ -9,3 +9,5 @@ Install Rust and run `./run.sh`. Currently the scene is hardcoded but I can fix 
 ## Screenshots
 
 ![Screenshot 1](/screenshots/a.png)
+![Screenshot 2](/screenshots/sphere.png)
+![Screenshot 3](/screenshots/metal.png)

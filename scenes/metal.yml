@@ -1,0 +1,54 @@
+camera_pos: [20, 10, 10]
+camera_lookat: [0, 0, 0]
+camera_fov: 50
+objects:
+  - type: sphere
+    center: [0, -10, 0]
+    radius: 4
+    material:
+      type: metal
+      albedo: [0.811, 0.811, 0.811]
+      fuzzy: 0
+  - type: sphere
+    center: [0, 0, 10]
+    radius: 4
+    material:
+      type: metal
+      albedo: [0.811, 0.811, 0.811]
+      fuzzy: 0
+  - type: sphere
+    center: [10, 0, 0]
+    radius: 4
+    material:
+      type: metal
+      albedo: [0.811, 0.811, 0.811]
+      fuzzy: 0
+  - type: sphere
+    center: [-10, 0, 0]
+    radius: 4
+    material:
+      type: metal
+      albedo: [0.811, 0.811, 0.811]
+      fuzzy: 0
+  - type: sphere
+    center: [0, 0, -10]
+    radius: 4
+    material:
+      type: metal
+      albedo: [0.811, 0.811, 0.811]
+      fuzzy: 0
+  - type: sphere
+    center: [0, 0, 0]
+    radius: 2
+    material:
+      type: diffuse
+      albedo: [0.886, 0.207, 0.929]
+  - type: sphere
+    center:
+      - 0
+      - -1012
+      - 0
+    radius: 1000
+    material:
+      type: diffuse
+      albedo: [.6, .6, .8]

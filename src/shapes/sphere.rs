@@ -1,8 +1,11 @@
+use serde::{Deserialize, Serialize};
+
 use crate::{
     hittable::{HitRecord, Hittable},
     material::Material,
     vectors::Vec3,
 };
+#[derive(Serialize, Deserialize, Debug)]
 pub struct Sphere {
     center: Vec3,
     radius: f32,
@@ -17,6 +20,7 @@ impl Sphere {
         }
     }
 }
+#[typetag::serde(name = "sphere")]
 impl Hittable for Sphere {
     fn hit(
         &self,

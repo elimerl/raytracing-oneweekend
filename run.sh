@@ -1,1 +1,1 @@
-cargo run --quiet --release -- $@
+cargo run --release -- $@

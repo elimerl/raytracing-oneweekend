@@ -1,10 +1,13 @@
 use std::fmt::Debug;
 
+use serde::{Deserialize, Serialize};
+
 use crate::{
     hittable::HitRecord,
     ray::Ray,
     vectors::{Color, Vec3},
 };
+#[typetag::serde(tag = "type")]
 pub trait Material: Debug + MaterialClone + Send + Sync {
     fn scatter(&self, r_in: Ray, rec: &HitRecord) -> Option<(Ray, Color)>;
 }
@@ -20,11 +23,12 @@ where
     }
 }
 
-#[derive(Debug, Clone)]
-pub struct Lambertian {
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct Diffuse {
     pub albedo: Color,
 }
-impl Material for Lambertian {
+#[typetag::serde(name = "diffuse")]
+impl Material for Diffuse {
     fn scatter(&self, _r_in: Ray, rec: &HitRecord) -> Option<(Ray, Color)> {
         let mut scatter_direction = rec.normal + Vec3::random_unit_vector();
         if scatter_direction.near_zero() {
@@ -37,7 +41,7 @@ impl Material for Lambertian {
     }
 }
 
-impl Lambertian {
+impl Diffuse {
     pub fn new(albedo: Color) -> Self {
         Self { albedo }
     }
@@ -48,7 +52,7 @@ impl Lambertian {
     }
 }
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Metal {
     albedo: Color,
     fuzzy: f32,
@@ -61,6 +65,7 @@ impl Metal {
         }
     }
 }
+#[typetag::serde(name = "metal")]
 impl Material for Metal {
     fn scatter(&self, r_in: Ray, rec: &HitRecord) -> Option<(Ray, Color)> {
         let reflected = (r_in.direction).normalize().reflect(rec.normal);

@@ -1,15 +1,24 @@
+use serde::{Deserialize, Serialize};
+
 use crate::{
     hittable::{HitRecord, Hittable},
     ray::Ray,
+    vectors::Vec3,
 };
+#[derive(Serialize, Deserialize, Debug)]
 pub struct HittableList {
     pub objects: Vec<Box<dyn Hittable>>,
+    pub camera_pos: Vec3,
+    pub camera_lookat: Vec3,
+    pub camera_fov: f32,
 }
-
 impl HittableList {
     pub fn new() -> HittableList {
         HittableList {
             objects: Vec::new(),
+            camera_lookat: Vec3::new(0.0, 0.0, 0.0),
+            camera_pos: Vec3::new(0.0, 0.0, 0.0),
+            camera_fov: 0.0,
         }
     }
     pub fn add(&mut self, object: Box<dyn Hittable>) {
@@ -36,6 +45,9 @@ impl Clone for HittableList {
     fn clone(&self) -> Self {
         HittableList {
             objects: self.objects.iter().map(|x| x.clone_box()).collect(),
+            camera_lookat: self.camera_lookat,
+            camera_pos: self.camera_pos,
+            camera_fov: self.camera_fov,
         }
     }
 }

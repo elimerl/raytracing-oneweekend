@@ -1,0 +1,20 @@
+camera_pos: [0, 20, 60]
+camera_lookat: [0, 0, 0]
+camera_fov: 50
+objects:
+  - type: sphere
+    center: [0, 0, 0]
+    radius: 10
+    material:
+      type: diffuse
+      albedo: [0.431, 0.929, 0.431]
+  - type: sphere
+    center:
+      - 0
+      - -1012
+      - 0
+    radius: 1000
+    material:
+      type: metal
+      albedo: [.8, .8, .8]
+      fuzzy: 0

@@ -1,7 +1,7 @@
 use std::fmt::Debug;
 
 use crate::{
-    material::{Lambertian, Material},
+    material::{Diffuse, Material},
     ray::Ray,
     vectors::{Point3, Vec3},
 };
@@ -20,7 +20,7 @@ impl HitRecord {
             normal: Vec3::new(0.0, 0.0, 0.0),
             t: 0.0,
             front_face: false,
-            mat: Box::new(Lambertian::empty()),
+            mat: Box::new(Diffuse::empty()),
         }
     }
     #[inline(always)]
@@ -33,7 +33,8 @@ impl HitRecord {
         }
     }
 }
-pub trait Hittable: Send + Sync + HittableClone {
+#[typetag::serde(tag = "type")]
+pub trait Hittable: Send + Sync + HittableClone + Debug {
     fn hit(&self, ray: Ray, t_min: f32, t_max: f32) -> Option<HitRecord>;
 }
 pub trait HittableClone {
